@@ -1,60 +1,104 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
-      {/* Modern gradient background */}
-      <div className="absolute inset-0 bg-gradient-hero"></div>
-      
-      {/* Geometric floating elements */}
-      <div className="absolute top-1/4 left-1/4 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float"></div>
-      <div className="absolute bottom-1/3 right-1/4 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-float" style={{ animationDelay: '2s' }}></div>
-      <div className="absolute top-1/3 right-1/3 w-16 h-16 bg-accent/20 rounded-full blur-xl animate-float" style={{ animationDelay: '4s' }}></div>
-
-      <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="animate-fade-in-up">
-          <h1 className="hero-title mb-6">
-            Tu empresa en Costa Rica
-            <br />
-            <span className="text-accent">desde cero</span>
-          </h1>
-          
-          <p className="hero-subtitle mx-auto mb-12">
-            Te acompañamos en cada paso para crear y hacer crecer tu negocio. Desde el registro hasta la estrategia, 
-            nosotros nos encargamos de todo para que tú te enfoques en lo que mejor sabes hacer.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="gradient" size="hero">
-              <CheckCircle className="mr-2" />
-              Empezar Ahora
-              <ArrowRight className="ml-2" />
-            </Button>
+    <section className="min-h-screen bg-background pt-20">
+      <div className="container mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
+          {/* Left Content */}
+          <div className="space-y-8">
+            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+              Tu empresa en{" "}
+              <span className="text-primary">Costa Rica</span>{" "}
+              desde cero
+            </h1>
             
-            <Button variant="outline" size="hero">
-              Conocer Servicios
-            </Button>
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
+              Te acompañamos en cada paso para crear y hacer crecer tu negocio. 
+              Desde el registro hasta la estrategia, nosotros nos encargamos de todo 
+              para que tú te enfoques en lo que mejor sabes hacer.
+            </p>
+
+            {/* Service highlights */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-6">
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
+                  <Check className="w-3 h-3 text-primary" />
+                </div>
+                <span className="text-foreground">Registro completo de empresa</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
+                  <Check className="w-3 h-3 text-primary" />
+                </div>
+                <span className="text-foreground">Estrategia personalizada</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
+                  <Check className="w-3 h-3 text-primary" />
+                </div>
+                <span className="text-foreground">Contabilidad profesional</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
+                  <Check className="w-3 h-3 text-primary" />
+                </div>
+                <span className="text-foreground">Asesoría legal especializada</span>
+              </div>
+            </div>
+
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg">
+                Empezar Ahora
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+              
+              <Button variant="outline" className="px-8 py-3 text-lg">
+                Conocer Servicios
+              </Button>
+            </div>
+
+            {/* Trust statement */}
+            <p className="text-muted-foreground pt-6">
+              Confiado por más de 500 empresas
+            </p>
+
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-8 pt-6">
+              <div>
+                <div className="text-3xl font-bold text-foreground">500+</div>
+                <div className="text-sm text-muted-foreground">Empresas creadas</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-foreground">95%</div>
+                <div className="text-sm text-muted-foreground">Éxito garantizado</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-foreground">24/7</div>
+                <div className="text-sm text-muted-foreground">Soporte disponible</div>
+              </div>
+            </div>
           </div>
 
-          {/* Trust badge */}
-          <div className="mt-16 mb-12">
-            <p className="text-muted-foreground text-lg">Confiado por más de 500 empresas</p>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Empresas creadas</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-2">95%</div>
-              <div className="text-muted-foreground">Éxito garantizado</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">24/7</div>
-              <div className="text-muted-foreground">Soporte disponible</div>
+          {/* Right Image */}
+          <div className="relative">
+            <img 
+              src="/lovable-uploads/65bcd8d9-26df-476b-af56-769d936b8ba6.png"
+              alt="Equipo de consultores profesionales trabajando"
+              className="w-full h-auto rounded-2xl"
+            />
+            
+            {/* Legal badge overlay */}
+            <div className="absolute bottom-6 left-6 bg-accent/90 backdrop-blur-sm rounded-full px-6 py-3 flex items-center space-x-3">
+              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+                <Check className="w-5 h-5 text-white" />
+              </div>
+              <div className="text-white">
+                <div className="font-semibold">100% Legal</div>
+                <div className="text-sm opacity-90">Cumplimiento garantizado</div>
+              </div>
             </div>
           </div>
         </div>
