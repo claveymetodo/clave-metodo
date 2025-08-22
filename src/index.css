@@ -8,56 +8,56 @@ All colors, gradients, fonts, etc defined here. All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Brand Colors */
+    /* Brand Colors - TICO Custom */
     --background: 0 0% 100%;
-    --foreground: 218 25% 15%;
+    --foreground: 86 25% 15%;
 
     /* Card System */
     --card: 0 0% 100%;
-    --card-foreground: 218 25% 15%;
+    --card-foreground: 86 25% 15%;
 
     /* Interactive Elements */
     --popover: 0 0% 100%;
-    --popover-foreground: 218 25% 15%;
+    --popover-foreground: 86 25% 15%;
 
-    /* Primary Brand - Tech Purple */
-    --primary: 262 83% 58%;
+    /* Primary Brand - Verde Oliva Oscuro #414f2f */
+    --primary: 86 25% 25%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 262 100% 75%;
-    --primary-dark: 262 83% 45%;
+    --primary-light: 86 25% 35%;
+    --primary-dark: 86 25% 20%;
 
-    /* Secondary Brand - Tech Blue */
-    --secondary: 217 91% 60%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary Brand - Púrpura Claro #e3e6fd */
+    --secondary: 234 80% 94%;
+    --secondary-foreground: 86 25% 25%;
     
-    /* Accent - Vibrant Orange */
-    --accent: 25 95% 58%;
+    /* Accent - Terracota Cálido #d0966e */
+    --accent: 26 48% 62%;
     --accent-foreground: 0 0% 100%;
 
     /* Neutral Tones */
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 234 80% 96%;
+    --muted-foreground: 86 25% 45%;
 
     /* System Colors */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 262 83% 58%;
+    --border: 234 80% 90%;
+    --input: 234 80% 90%;
+    --ring: 86 25% 25%;
 
     /* Design System Variables */
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(217 91% 60%));
-    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(217 91% 60%) 50%, hsl(25 95% 58%) 100%);
-    --gradient-subtle: linear-gradient(135deg, hsl(262 83% 95%) 0%, hsl(217 91% 95%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(86 25% 25%), hsl(26 48% 62%));
+    --gradient-hero: linear-gradient(135deg, hsl(86 25% 25%) 0%, hsl(234 80% 94%) 50%, hsl(26 48% 62%) 100%);
+    --gradient-subtle: linear-gradient(135deg, hsl(234 80% 98%) 0%, hsl(86 25% 98%) 100%);
     
     /* Shadows */
-    --shadow-glow: 0 20px 40px -12px hsl(262 83% 58% / 0.25);
-    --shadow-card: 0 4px 20px -4px hsl(218 25% 15% / 0.1);
-    --shadow-button: 0 4px 12px -2px hsl(262 83% 58% / 0.3);
+    --shadow-glow: 0 20px 40px -12px hsl(86 25% 25% / 0.25);
+    --shadow-card: 0 4px 20px -4px hsl(86 25% 25% / 0.1);
+    --shadow-button: 0 4px 12px -2px hsl(86 25% 25% / 0.3);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,43 +66,43 @@ All colors, gradients, fonts, etc defined here. All colors MUST be HSL.
 
   .dark {
     /* Dark Mode Overrides */
-    --background: 218 25% 8%;
+    --background: 86 25% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 218 25% 10%;
+    --card: 86 25% 10%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 218 25% 10%;
+    --popover: 86 25% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 262 83% 65%;
+    --primary: 86 25% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 217 91% 65%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 234 80% 85%;
+    --secondary-foreground: 86 25% 15%;
 
-    --muted: 218 25% 15%;
-    --muted-foreground: 220 9% 65%;
+    --muted: 86 25% 15%;
+    --muted-foreground: 86 25% 65%;
 
-    --accent: 25 95% 65%;
+    --accent: 26 48% 70%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 218 25% 20%;
-    --input: 218 25% 20%;
-    --ring: 262 83% 65%;
+    --border: 86 25% 20%;
+    --input: 86 25% 20%;
+    --ring: 86 25% 35%;
 
     /* Dark Mode Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 65%), hsl(217 91% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(262 83% 65%) 0%, hsl(217 91% 65%) 50%, hsl(25 95% 65%) 100%);
-    --gradient-subtle: linear-gradient(135deg, hsl(262 83% 15%) 0%, hsl(217 91% 15%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(86 25% 35%), hsl(26 48% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(86 25% 35%) 0%, hsl(234 80% 85%) 50%, hsl(26 48% 70%) 100%);
+    --gradient-subtle: linear-gradient(135deg, hsl(86 25% 12%) 0%, hsl(234 80% 12%) 100%);
     
     /* Dark Mode Shadows */
-    --shadow-glow: 0 20px 40px -12px hsl(262 83% 65% / 0.3);
+    --shadow-glow: 0 20px 40px -12px hsl(86 25% 35% / 0.3);
     --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
-    --shadow-button: 0 4px 12px -2px hsl(262 83% 65% / 0.4);
+    --shadow-button: 0 4px 12px -2px hsl(86 25% 35% / 0.4);
   }
 }
 

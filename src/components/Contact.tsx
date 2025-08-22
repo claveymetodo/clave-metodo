@@ -17,61 +17,61 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Ready to Start Building?
+            ¿Listo para Comenzar a Construir?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Let's discuss your vision and explore how TICO can help bring your startup to life. 
-            Get in touch with our team today.
+            Hablemos sobre tu visión y exploremos cómo TICO puede ayudar a dar vida a tu startup. 
+            Ponte en contacto con nuestro equipo hoy.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact Form */}
           <Card className="p-8 glow-card">
-            <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
+            <h3 className="text-2xl font-bold mb-6">Envíanos un mensaje</h3>
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="text-sm font-medium mb-2 block">First Name</label>
-                  <Input placeholder="John" />
+                  <label className="text-sm font-medium mb-2 block">Nombre</label>
+                  <Input placeholder="Juan" />
                 </div>
                 <div>
-                  <label className="text-sm font-medium mb-2 block">Last Name</label>
-                  <Input placeholder="Doe" />
+                  <label className="text-sm font-medium mb-2 block">Apellido</label>
+                  <Input placeholder="Pérez" />
                 </div>
               </div>
               
               <div>
                 <label className="text-sm font-medium mb-2 block">Email</label>
-                <Input type="email" placeholder="john@example.com" />
+                <Input type="email" placeholder="juan@ejemplo.com" />
               </div>
               
               <div>
-                <label className="text-sm font-medium mb-2 block">Company</label>
-                <Input placeholder="Your startup name" />
+                <label className="text-sm font-medium mb-2 block">Empresa</label>
+                <Input placeholder="Nombre de tu startup" />
               </div>
               
               <div>
-                <label className="text-sm font-medium mb-2 block">Project Type</label>
+                <label className="text-sm font-medium mb-2 block">Tipo de Proyecto</label>
                 <select className="w-full h-11 px-3 rounded-lg border border-input bg-background">
-                  <option>New Startup</option>
-                  <option>Existing Business</option>
-                  <option>Investment Opportunity</option>
-                  <option>Partnership</option>
+                  <option>Nueva Startup</option>
+                  <option>Negocio Existente</option>
+                  <option>Oportunidad de Inversión</option>
+                  <option>Asociación</option>
                 </select>
               </div>
               
               <div>
-                <label className="text-sm font-medium mb-2 block">Message</label>
+                <label className="text-sm font-medium mb-2 block">Mensaje</label>
                 <Textarea 
-                  placeholder="Tell us about your project, goals, and how we can help..."
+                  placeholder="Cuéntanos sobre tu proyecto, objetivos y cómo podemos ayudarte..."
                   className="min-h-[120px]"
                 />
               </div>
               
               <Button variant="gradient" size="lg" className="w-full">
                 <Send className="mr-2" />
-                Send Message
+                Enviar Mensaje
               </Button>
             </form>
           </Card>
@@ -79,10 +79,10 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Get in touch</h3>
+              <h3 className="text-2xl font-bold mb-6">Ponte en contacto</h3>
               <p className="text-muted-foreground mb-8">
-                Ready to transform your idea into the next big thing? Our team is here to help 
-                you navigate every step of the startup journey.
+                ¿Listo para transformar tu idea en la próxima gran cosa? Nuestro equipo está aquí para 
+                ayudarte a navegar cada paso del viaje de tu startup.
               </p>
             </div>
 
@@ -92,8 +92,8 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold">Email Us</div>
-                  <div className="text-muted-foreground">hello@ticostudio.com</div>
+                  <div className="font-semibold">Escríbenos</div>
+                  <div className="text-muted-foreground">hola@ticostudio.com</div>
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold">Call Us</div>
+                  <div className="font-semibold">Llámanos</div>
                   <div className="text-muted-foreground">+1 (555) 123-4567</div>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold">Visit Us</div>
+                  <div className="font-semibold">Visítanos</div>
                   <div className="text-muted-foreground">
                     123 Innovation Drive<br />
                     San Francisco, CA 94105
@@ -122,7 +122,7 @@ const Contact = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-semibold mb-4">Follow us</h4>
+              <h4 className="font-semibold mb-4">Síguenos</h4>
               <div className="flex space-x-4">
                 <Button variant="outline" size="icon">
                   <Linkedin className="h-5 w-5" />
@@ -137,11 +137,11 @@ const Contact = () => {
             </div>
 
             <Card className="p-6 bg-gradient-subtle border-border/50">
-              <h4 className="font-semibold mb-2">Office Hours</h4>
+              <h4 className="font-semibold mb-2">Horarios de Oficina</h4>
               <div className="space-y-1 text-sm text-muted-foreground">
-                <div>Monday - Friday: 9:00 AM - 6:00 PM PST</div>
-                <div>Saturday: 10:00 AM - 4:00 PM PST</div>
-                <div>Sunday: Closed</div>
+                <div>Lunes - Viernes: 9:00 AM - 6:00 PM PST</div>
+                <div>Sábado: 10:00 AM - 4:00 PM PST</div>
+                <div>Domingo: Cerrado</div>
               </div>
             </Card>
           </div>

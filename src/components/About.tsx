@@ -9,10 +9,10 @@ import {
 } from "lucide-react";
 
 const stats = [
-  { icon: Award, value: "15 Years", label: "Industry Experience" },
-  { icon: Users2, value: "200+", label: "Team Members" },
-  { icon: Globe, value: "25+", label: "Countries Served" },
-  { icon: Target, value: "50+", label: "Successful Exits" }
+  { icon: Award, value: "15 Años", label: "Experiencia en la Industria" },
+  { icon: Users2, value: "200+", label: "Miembros del Equipo" },
+  { icon: Globe, value: "25+", label: "Países Atendidos" },
+  { icon: Target, value: "50+", label: "Salidas Exitosas" }
 ];
 
 const About = () => {
@@ -23,14 +23,14 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              Shaping Tomorrow's Leaders
+              Formando los Líderes del Mañana
             </h2>
             
             <p className="text-xl text-muted-foreground mb-8">
-              TICO Startup Studio is more than an incubator – we're your co-founding partner. 
-              With over 15 years of experience building and scaling companies, we provide the 
-              strategic guidance, resources, and network needed to transform breakthrough ideas 
-              into market-leading businesses.
+              TICO Startup Studio es más que una incubadora – somos tu socio co-fundador. 
+              Con más de 15 años de experiencia construyendo y escalando empresas, proporcionamos la 
+              orientación estratégica, recursos y red necesarios para transformar ideas revolucionarias 
+              en negocios líderes del mercado.
             </p>
 
             <div className="space-y-6 mb-8">
@@ -39,8 +39,8 @@ const About = () => {
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Co-Creation Model</h4>
-                  <p className="text-muted-foreground">We don't just invest – we build alongside you as true partners.</p>
+                  <h4 className="font-semibold mb-2">Modelo de Co-creación</h4>
+                  <p className="text-muted-foreground">No solo invertimos – construimos junto a ti como verdaderos socios.</p>
                 </div>
               </div>
 
@@ -49,8 +49,8 @@ const About = () => {
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Proven Methodology</h4>
-                  <p className="text-muted-foreground">Our systematic approach has created billions in shareholder value.</p>
+                  <h4 className="font-semibold mb-2">Metodología Probada</h4>
+                  <p className="text-muted-foreground">Nuestro enfoque sistemático ha creado miles de millones en valor para accionistas.</p>
                 </div>
               </div>
 
@@ -59,14 +59,14 @@ const About = () => {
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Global Network</h4>
-                  <p className="text-muted-foreground">Access our extensive network of investors, mentors, and industry experts.</p>
+                  <h4 className="font-semibold mb-2">Red Global</h4>
+                  <p className="text-muted-foreground">Accede a nuestra extensa red de inversores, mentores y expertos de la industria.</p>
                 </div>
               </div>
             </div>
 
             <Button variant="hero" size="lg">
-              Partner With Us
+              Asociarse Con Nosotros
               <ArrowRight className="ml-2" />
             </Button>
           </div>
@@ -91,14 +91,14 @@ const About = () => {
         {/* Mission Statement */}
         <div className="mt-20 text-center">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">Our Mission</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-6">Nuestra Misión</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              "To democratize entrepreneurship by providing world-class resources, expertise, 
-              and capital to visionary founders building the future. We believe that great ideas 
-              can come from anywhere, and our job is to help them reach their full potential."
+              "Democratizar el emprendimiento proporcionando recursos, experiencia y capital de clase mundial 
+              a fundadores visionarios que construyen el futuro. Creemos que las grandes ideas pueden venir de 
+              cualquier lugar, y nuestro trabajo es ayudarlas a alcanzar su máximo potencial."
             </p>
             <div className="mt-6 text-primary font-semibold">
-              — The TICO Team
+              — El Equipo TICO
             </div>
           </div>
         </div>

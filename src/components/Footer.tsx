@@ -22,8 +22,8 @@ const Footer = () => {
               <span className="hero-title text-3xl">TICO</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Transforming innovative ideas into market-leading companies through 
-              strategic partnership, capital, and expertise.
+              Transformando ideas innovadoras en empresas líderes del mercado a través 
+              de asociación estratégica, capital y experiencia.
             </p>
             <div className="flex space-x-4">
               <Button variant="outline" size="icon">
@@ -40,27 +40,27 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Servicios</h4>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Idea Validation</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Product Development</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Funding & Investment</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Team Building</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Go-to-Market</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Growth Acceleration</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Validación de Ideas</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Desarrollo de Producto</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Financiamiento e Inversión</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Construcción de Equipos</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Lanzamiento al Mercado</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Aceleración de Crecimiento</a></li>
             </ul>
           </div>
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Empresa</h4>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="#about" className="hover:text-foreground transition-colors">About Us</a></li>
-              <li><a href="#portfolio" className="hover:text-foreground transition-colors">Portfolio</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Team</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
+              <li><a href="#about" className="hover:text-foreground transition-colors">Nosotros</a></li>
+              <li><a href="#portfolio" className="hover:text-foreground transition-colors">Portafolio</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Equipo</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Carreras</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#contact" className="hover:text-foreground transition-colors">Contact</a></li>
+              <li><a href="#contact" className="hover:text-foreground transition-colors">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -74,10 +74,10 @@ const Footer = () => {
           
           <div className="flex items-center space-x-6">
             <a href="#" className="text-muted-foreground hover:text-foreground text-sm transition-colors">
-              Privacy Policy
+              Política de Privacidad
             </a>
             <a href="#" className="text-muted-foreground hover:text-foreground text-sm transition-colors">
-              Terms of Service
+              Términos de Servicio
             </a>
             <Button 
               variant="ghost" 

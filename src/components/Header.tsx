@@ -10,21 +10,21 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">
-            Services
+            Servicios
           </a>
           <a href="#portfolio" className="text-muted-foreground hover:text-foreground transition-colors">
-            Portfolio
+            Portafolio
           </a>
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
-            About
+            Nosotros
           </a>
           <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
-            Contact
+            Contacto
           </a>
         </nav>
 
         <Button variant="hero" size="default">
-          Get Started
+          Comenzar
         </Button>
       </div>
     </header>

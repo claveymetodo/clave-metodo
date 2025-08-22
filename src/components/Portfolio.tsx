@@ -6,57 +6,57 @@ import { ExternalLink, TrendingUp } from "lucide-react";
 const portfolioItems = [
   {
     name: "FinTech Pro",
-    description: "Revolutionary payment processing platform serving 10M+ users globally",
+    description: "Plataforma revolucionaria de procesamiento de pagos que sirve a más de 10M de usuarios globalmente",
     category: "FinTech",
     valuation: "$500M",
     growth: "+300%",
-    status: "Series B",
+    status: "Serie B",
     technologies: ["React", "Node.js", "AWS", "Blockchain"]
   },
   {
     name: "HealthSync",
-    description: "AI-powered healthcare management system improving patient outcomes",
+    description: "Sistema de gestión sanitaria potenciado por IA que mejora los resultados de los pacientes",
     category: "HealthTech",
     valuation: "$200M", 
     growth: "+250%",
-    status: "Series A",
+    status: "Serie A",
     technologies: ["Python", "TensorFlow", "React", "GCP"]
   },
   {
     name: "EduFlow",
-    description: "Next-generation learning platform with 50M+ students worldwide",
+    description: "Plataforma de aprendizaje de próxima generación con más de 50M de estudiantes en todo el mundo",
     category: "EdTech",
     valuation: "$1.2B",
     growth: "+400%", 
-    status: "Series C",
+    status: "Serie C",
     technologies: ["Vue.js", "Django", "PostgreSQL", "ML"]
   },
   {
     name: "GreenEnergy",
-    description: "Smart energy management solutions for sustainable businesses",
+    description: "Soluciones inteligentes de gestión energética para empresas sostenibles",
     category: "CleanTech",
     valuation: "$150M",
     growth: "+180%",
-    status: "Series A",
+    status: "Serie A",
     technologies: ["IoT", "React", "Python", "Azure"]
   },
   {
     name: "RetailAI",
-    description: "Intelligent inventory management reducing waste by 40%",
+    description: "Gestión inteligente de inventario que reduce el desperdicio en un 40%",
     category: "Retail",
     valuation: "$300M",
     growth: "+220%",
-    status: "Series B", 
-    technologies: ["AI/ML", "React", "Microservices", "AWS"]
+    status: "Serie B", 
+    technologies: ["AI/ML", "React", "Microservicios", "AWS"]
   },
   {
     name: "CyberShield",
-    description: "Advanced cybersecurity platform protecting Fortune 500 companies",
-    category: "CyberSec",
+    description: "Plataforma avanzada de ciberseguridad que protege empresas Fortune 500",
+    category: "CiberSeg",
     valuation: "$800M",
     growth: "+350%",
-    status: "Series C",
-    technologies: ["Security", "Go", "React", "Kubernetes"]
+    status: "Serie C",
+    technologies: ["Seguridad", "Go", "React", "Kubernetes"]
   }
 ];
 
@@ -66,11 +66,11 @@ const Portfolio = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Success Stories
+            Historias de Éxito
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Meet the companies we've helped transform from ideas into industry leaders.
-            Our portfolio represents billions in combined valuation.
+            Conoce las empresas que hemos ayudado a transformar de ideas a líderes de la industria.
+            Nuestro portafolio representa miles de millones en valoración combinada.
           </p>
         </div>
 
@@ -98,11 +98,11 @@ const Portfolio = () => {
 
               <div className="space-y-3 mb-4">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Valuation</span>
+                  <span className="text-sm text-muted-foreground">Valoración</span>
                   <span className="font-semibold text-primary">{item.valuation}</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">Growth</span>
+                  <span className="text-sm text-muted-foreground">Crecimiento</span>
                   <span className="font-semibold text-secondary flex items-center">
                     <TrendingUp className="h-4 w-4 mr-1" />
                     {item.growth}
@@ -119,7 +119,7 @@ const Portfolio = () => {
               </div>
 
               <Button variant="ghost" className="w-full group">
-                View Case Study
+                Ver Caso de Estudio
                 <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Card>
@@ -128,7 +128,7 @@ const Portfolio = () => {
 
         <div className="text-center">
           <Button variant="cta" size="lg">
-            See All Portfolio Companies
+            Ver Todas las Empresas del Portafolio
           </Button>
         </div>
       </div>

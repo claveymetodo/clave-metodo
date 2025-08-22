@@ -13,39 +13,39 @@ import {
 const services = [
   {
     icon: Lightbulb,
-    title: "Idea Validation",
-    description: "Transform your concept into a viable business model with our proven validation framework.",
-    features: ["Market Research", "Competitor Analysis", "MVP Strategy"]
+    title: "Validación de Ideas",
+    description: "Transforma tu concepto en un modelo de negocio viable con nuestro marco de validación probado.",
+    features: ["Investigación de Mercado", "Análisis de Competencia", "Estrategia de MVP"]
   },
   {
     icon: Code,
-    title: "Product Development",
-    description: "Build cutting-edge products with our world-class engineering and design teams.",
-    features: ["Technical Architecture", "UI/UX Design", "Quality Assurance"]
+    title: "Desarrollo de Producto",
+    description: "Construye productos de vanguardia con nuestros equipos de ingeniería y diseño de clase mundial.",
+    features: ["Arquitectura Técnica", "Diseño UI/UX", "Aseguramiento de Calidad"]
   },
   {
     icon: DollarSign,
-    title: "Funding & Investment",
-    description: "Access capital and investor networks to fuel your startup's growth journey.",
-    features: ["Seed Funding", "Series A-C", "Investor Connections"]
+    title: "Financiamiento e Inversión",
+    description: "Accede a capital y redes de inversores para impulsar el crecimiento de tu startup.",
+    features: ["Financiamiento Semilla", "Series A-C", "Conexiones con Inversores"]
   },
   {
     icon: Users,
-    title: "Team Building",
-    description: "Recruit top talent and build high-performing teams that scale with your vision.",
-    features: ["Executive Search", "Technical Hiring", "Culture Building"]
+    title: "Construcción de Equipos",
+    description: "Recluta talento de primer nivel y construye equipos de alto rendimiento que escalen con tu visión.",
+    features: ["Búsqueda Ejecutiva", "Contratación Técnica", "Construcción de Cultura"]
   },
   {
     icon: Target,
-    title: "Go-to-Market",
-    description: "Launch successfully with data-driven marketing and sales strategies.",
-    features: ["Market Strategy", "Brand Development", "Sales Optimization"]
+    title: "Lanzamiento al Mercado",
+    description: "Lanza exitosamente con estrategias de marketing y ventas basadas en datos.",
+    features: ["Estrategia de Mercado", "Desarrollo de Marca", "Optimización de Ventas"]
   },
   {
     icon: TrendingUp,
-    title: "Growth Acceleration",
-    description: "Scale rapidly with our growth hacking expertise and strategic partnerships.",
-    features: ["Growth Analytics", "Partnership Development", "International Expansion"]
+    title: "Aceleración de Crecimiento",
+    description: "Escala rápidamente con nuestra experiencia en growth hacking y alianzas estratégicas.",
+    features: ["Análisis de Crecimiento", "Desarrollo de Alianzas", "Expansión Internacional"]
   }
 ];
 
@@ -55,11 +55,11 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            End-to-End Startup Services
+            Servicios Integrales para Startups
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From initial concept to market leader, we provide comprehensive support 
-            at every stage of your startup journey.
+            Desde el concepto inicial hasta el liderazgo del mercado, proporcionamos soporte integral 
+            en cada etapa del viaje de tu startup.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ const Services = () => {
               </ul>
 
               <Button variant="ghost" className="w-full group">
-                Learn More
+                Saber Más
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Card>

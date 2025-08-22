@@ -20,26 +20,26 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in-up">
           <h1 className="hero-title mb-6">
-            Build The Future
+            Construimos El Futuro
             <br />
-            <span className="text-accent">Together</span>
+            <span className="text-accent">Juntos</span>
           </h1>
           
           <p className="hero-subtitle mx-auto mb-12">
-            TICO Startup Studio transforms innovative ideas into market-leading companies. 
-            We provide capital, expertise, and resources to build the next generation of startups.
+            TICO Startup Studio transforma ideas innovadoras en empresas líderes del mercado. 
+            Proporcionamos capital, experiencia y recursos para construir la próxima generación de startups.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="gradient" size="hero">
               <Rocket className="mr-2" />
-              Launch Your Startup
+              Lanza Tu Startup
               <ArrowRight className="ml-2" />
             </Button>
             
             <Button variant="outline" size="hero">
               <Zap className="mr-2" />
-              Explore Portfolio
+              Explorar Portafolio
             </Button>
           </div>
 
@@ -47,15 +47,15 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">50+</div>
-              <div className="text-muted-foreground">Startups Launched</div>
+              <div className="text-muted-foreground">Startups Lanzadas</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-secondary mb-2">$100M+</div>
-              <div className="text-muted-foreground">Capital Deployed</div>
+              <div className="text-muted-foreground">Capital Desplegado</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-accent mb-2">95%</div>
-              <div className="text-muted-foreground">Success Rate</div>
+              <div className="text-muted-foreground">Tasa de Éxito</div>
             </div>
           </div>
         </div>
