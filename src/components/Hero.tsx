@@ -84,7 +84,7 @@ const Hero = () => {
           {/* Right Image */}
           <div className="relative">
             <img 
-              src="/lovable-uploads/65bcd8d9-26df-476b-af56-769d936b8ba6.png"
+              src="/lovable-uploads/1f473313-5cf6-41ae-ad34-f528d0f435b2.png"
               alt="Equipo de consultores profesionales trabajando"
               className="w-full h-auto rounded-2xl"
             />
