@@ -30,7 +30,7 @@ const Header = () => {
             <span className="text-sm">EN</span>
           </div>
           <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-6">
-            Consulta Gratis
+            Agenda una Videollamada
           </Button>
         </div>
       </div>

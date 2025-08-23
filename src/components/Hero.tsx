@@ -10,41 +10,28 @@ const Hero = () => {
           <div className="space-y-8">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
               Tu empresa en{" "}
-              <span className="text-primary">Costa Rica</span>{" "}
+              <span className="bg-gradient-to-r from-[#414f2f] to-[#d0966e] bg-clip-text text-transparent">Costa Rica</span>{" "}
               desde cero
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-              Te acompañamos en cada paso para crear y hacer crecer tu negocio. 
-              Desde el registro hasta la estrategia, nosotros nos encargamos de todo 
-              para que tú te enfoques en lo que mejor sabes hacer.
+              Te acompañamos en cada etapa de tu negocio, desde el registro hasta la estrategia de crecimiento. 
+              Nos encargamos de todo para que tú puedas enfocarte en lo que realmente sabes hacer.
             </p>
 
             {/* Service highlights */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-6">
+            <div className="grid grid-cols-1 gap-4 py-6">
               <div className="flex items-center space-x-3">
                 <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
                   <Check className="w-3 h-3 text-primary" />
                 </div>
-                <span className="text-foreground">Registro completo de empresa</span>
+                <span className="text-foreground">Gestión contable y fiscal integral</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
                   <Check className="w-3 h-3 text-primary" />
                 </div>
-                <span className="text-foreground">Estrategia personalizada</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Check className="w-3 h-3 text-primary" />
-                </div>
-                <span className="text-foreground">Contabilidad profesional</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Check className="w-3 h-3 text-primary" />
-                </div>
-                <span className="text-foreground">Asesoría legal especializada</span>
+                <span className="text-foreground">Planeación financiera y cumplimiento regulatorio</span>
               </div>
             </div>
 
