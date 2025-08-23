@@ -20,7 +20,7 @@ const Hero = () => {
             </p>
 
             {/* Service highlights */}
-            <div className="grid grid-cols-1 gap-4 py-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-6">
               <div className="flex items-center space-x-3">
                 <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
                   <Check className="w-3 h-3 text-primary" />
@@ -32,6 +32,18 @@ const Hero = () => {
                   <Check className="w-3 h-3 text-primary" />
                 </div>
                 <span className="text-foreground">Planeación financiera y cumplimiento regulatorio</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
+                  <Check className="w-3 h-3 text-primary" />
+                </div>
+                <span className="text-foreground">Constitución y formalización de empresas</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0 w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
+                  <Check className="w-3 h-3 text-primary" />
+                </div>
+                <span className="text-foreground">Estrategias de gestión y expansión empresarial</span>
               </div>
             </div>
 
