@@ -81,14 +81,7 @@ const About = () => {
                 
                 <div>
                   <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
-                  <select className="w-full h-12 px-3 rounded-lg border border-input bg-background text-sm">
-                    <option>🔺 Restaurante, Tech Startup, Consultorio...</option>
-                    <option>Nueva Startup</option>
-                    <option>Negocio Existente</option>
-                    <option>Consultorio Médico</option>
-                    <option>Restaurante</option>
-                    <option>Tech Startup</option>
-                  </select>
+                  <Input placeholder="Ej: Restaurante, Tech Startup, Consultorio..." className="h-12" />
                 </div>
                 
                 <div>
