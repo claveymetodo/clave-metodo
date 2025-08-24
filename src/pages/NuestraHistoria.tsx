@@ -1,0 +1,195 @@
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ArrowLeft, Award, Users, Target } from "lucide-react";
+import { Link } from "react-router-dom";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import WhatsAppChat from "@/components/WhatsAppChat";
+
+const NuestraHistoria = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      
+      {/* Hero Section */}
+      <section className="pt-32 pb-16 bg-gradient-subtle">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <Link to="/" className="inline-flex items-center text-muted-foreground hover:text-primary mb-6 transition-colors">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Volver al inicio
+            </Link>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+              Nuestra Historia
+            </h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Conoce al equipo que está comprometido en hacer realidad tu visión empresarial. 
+              Nuestra experiencia y pasión por el éxito de nuestros clientes nos define.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Partners Section */}
+      <section className="py-24">
+        <div className="container mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-16 mb-24">
+            
+            {/* Partner 1 */}
+            <Card className="p-8 glow-card hover:shadow-glow transition-all duration-300 bg-card/50 backdrop-blur-sm border-border/50">
+              <div className="text-center">
+                <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-primary p-1">
+                  <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
+                    <div className="w-44 h-44 rounded-full bg-muted flex items-center justify-center text-muted-foreground">
+                      Tu Foto
+                    </div>
+                  </div>
+                </div>
+                
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Tu Nombre</h3>
+                <p className="text-lg text-primary mb-6">Co-fundador & Director Ejecutivo</p>
+                
+                <div className="text-left space-y-4 mb-8">
+                  <p className="text-muted-foreground">
+                    Escribe aquí tu introducción personal, tu experiencia profesional, 
+                    tus logros más importantes y qué te motivó a crear Clave y Método. 
+                    Comparte tu visión y compromiso con el éxito empresarial de tus clientes.
+                  </p>
+                  <p className="text-muted-foreground">
+                    Menciona tu formación académica, años de experiencia, y los sectores 
+                    o tipos de empresas en los que te especializas.
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
+                  <div className="text-center">
+                    <Award className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">X+ Años</div>
+                    <div className="text-xs text-muted-foreground">Experiencia</div>
+                  </div>
+                  <div className="text-center">
+                    <Users className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">X+ Empresas</div>
+                    <div className="text-xs text-muted-foreground">Constituidas</div>
+                  </div>
+                  <div className="text-center">
+                    <Target className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">100%</div>
+                    <div className="text-xs text-muted-foreground">Éxito</div>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            {/* Partner 2 */}
+            <Card className="p-8 glow-card hover:shadow-glow transition-all duration-300 bg-card/50 backdrop-blur-sm border-border/50">
+              <div className="text-center">
+                <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-primary p-1">
+                  <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
+                    <div className="w-44 h-44 rounded-full bg-muted flex items-center justify-center text-muted-foreground">
+                      Foto del Socio
+                    </div>
+                  </div>
+                </div>
+                
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Nombre del Socio</h3>
+                <p className="text-lg text-primary mb-6">Co-fundador & Director de Operaciones</p>
+                
+                <div className="text-left space-y-4 mb-8">
+                  <p className="text-muted-foreground">
+                    Aquí va la introducción de tu socio, su experiencia profesional, 
+                    especialidades y qué aporta al equipo de Clave y Método. 
+                    Destaca su experiencia complementaria y su rol en la empresa.
+                  </p>
+                  <p className="text-muted-foreground">
+                    Incluye su formación, certificaciones relevantes, y las áreas 
+                    específicas en las que se especializa dentro de los servicios empresariales.
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
+                  <div className="text-center">
+                    <Award className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">X+ Años</div>
+                    <div className="text-xs text-muted-foreground">Experiencia</div>
+                  </div>
+                  <div className="text-center">
+                    <Users className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">X+ Clientes</div>
+                    <div className="text-xs text-muted-foreground">Satisfechos</div>
+                  </div>
+                  <div className="text-center">
+                    <Target className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">Expert</div>
+                    <div className="text-xs text-muted-foreground">Certificado</div>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Together Section */}
+          <Card className="p-12 glow-card hover:shadow-glow transition-all duration-300 bg-gradient-to-r from-[#414f2f]/10 to-[#d0966e]/10 backdrop-blur-sm border-border/50">
+            <div className="text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
+                Juntos Hacemos la Diferencia
+              </h2>
+              
+              <div className="max-w-md mx-auto mb-8">
+                <div className="w-full h-64 rounded-lg overflow-hidden bg-gradient-primary p-1">
+                  <div className="w-full h-full rounded-lg bg-background flex items-center justify-center">
+                    <div className="w-full h-full rounded-lg bg-muted flex items-center justify-center text-muted-foreground">
+                      Foto de Ambos Juntos
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="max-w-4xl mx-auto space-y-6">
+                <p className="text-lg text-muted-foreground">
+                  Nuestra asociación nació de una visión compartida: simplificar el proceso de creación y 
+                  crecimiento empresarial en Costa Rica. Combinamos nuestras diferentes especialidades y 
+                  experiencias para ofrecer un servicio integral que realmente marque la diferencia.
+                </p>
+                
+                <p className="text-lg text-muted-foreground">
+                  Creemos firmemente que cada empresario merece tener acceso a asesoría profesional de calidad, 
+                  sin complicaciones burocráticas. Por eso, nos dedicamos a ser el puente entre tu visión 
+                  empresarial y su realización exitosa.
+                </p>
+
+                <div className="grid md:grid-cols-3 gap-8 pt-8">
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                    <div className="text-sm text-muted-foreground">Empresas Constituidas</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary mb-2">10+</div>
+                    <div className="text-sm text-muted-foreground">Años de Experiencia Combinada</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary mb-2">98%</div>
+                    <div className="text-sm text-muted-foreground">Clientes Satisfechos</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-12">
+                <Link to="/#about">
+                  <Button className="bg-primary hover:bg-[#d0966e] text-primary-foreground px-8 py-3 text-lg transition-colors duration-300">
+                    Hablemos de tu Proyecto
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </Card>
+        </div>
+      </section>
+
+      <Footer />
+      <WhatsAppChat />
+    </div>
+  );
+};
+
+export default NuestraHistoria;

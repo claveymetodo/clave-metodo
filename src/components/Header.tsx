@@ -1,25 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <div className="font-bold text-2xl text-foreground">
+        <Link to="/" className="font-bold text-2xl text-foreground hover:text-primary transition-colors">
           Clave y Método
-        </div>
+        </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#inicio" className="text-foreground hover:text-primary transition-colors">
+          <a href="/#inicio" className="text-foreground hover:text-primary transition-colors">
             Inicio
           </a>
-          <a href="#services" className="text-foreground hover:text-primary transition-colors">
+          <a href="/#services" className="text-foreground hover:text-primary transition-colors">
             Servicios
           </a>
-          <a href="#nosotros" className="text-foreground hover:text-primary transition-colors">
+          <Link to="/nuestra-historia" className="text-foreground hover:text-primary transition-colors">
             Nuestra Historia
-          </a>
-          <a href="#about" className="text-foreground hover:text-primary transition-colors">
+          </Link>
+          <a href="/#about" className="text-foreground hover:text-primary transition-colors">
             Hablemos
           </a>
         </nav>
