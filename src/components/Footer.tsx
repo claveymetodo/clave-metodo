@@ -10,13 +10,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#414f2f] text-white">
       <div className="container mx-auto px-6 py-8">
-        <div className="flex flex-wrap items-center justify-between gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
-          <div className="flex items-center space-x-8">
-            <div>
-              <span className="font-black text-xl text-white">Clave y Método</span>
-              <p className="text-green-100 text-sm">Tu aliado estratégico para crear y hacer crecer empresas exitosas en Costa Rica.</p>
+          <div>
+            <div className="font-bold text-xl mb-4">
+              <span className="text-white">Clave y Método</span>
             </div>
+            <p className="text-green-100 mb-4 text-sm leading-relaxed">
+              Tu aliado estratégico para crear y hacer crecer empresas exitosas en Costa Rica. Más de 10 años de experiencia respaldan nuestro compromiso.
+            </p>
             <div className="flex items-center space-x-2 text-green-100">
               <Heart className="h-4 w-4 text-[#d0966e]" />
               <span className="text-sm">Hecho con amor en Costa Rica</span>
@@ -24,42 +26,52 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div className="flex items-center space-x-6 text-sm">
-            <div>
-              <span className="font-semibold text-white">Servicios:</span>
-              <span className="text-green-100 ml-2">Registro de Empresas • Estrategia Empresarial • Contabilidad • Recursos Humanos • Cumplimiento Legal • Consultoría Integral</span>
-            </div>
+          <div>
+            <h4 className="font-bold mb-4 text-white">Servicios</h4>
+            <ul className="space-y-2 text-green-100 text-sm">
+              <li><a href="#" className="hover:text-white transition-colors">Registro de Empresas</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Estrategia Empresarial</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Contabilidad</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Recursos Humanos</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Cumplimiento Legal</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Consultoría Integral</a></li>
+            </ul>
           </div>
 
           {/* Enlaces Rápidos */}
-          <div className="flex items-center space-x-6 text-sm">
-            <div>
-              <span className="font-semibold text-white">Enlaces Rápidos:</span>
-              <span className="text-green-100 ml-2">Inicio • Nosotros • Contacto • Términos y Condiciones • Política de Privacidad</span>
-            </div>
+          <div>
+            <h4 className="font-bold mb-4 text-white">Enlaces Rápidos</h4>
+            <ul className="space-y-2 text-green-100 text-sm">
+              <li><a href="#" className="hover:text-white transition-colors">Inicio</a></li>
+              <li><a href="#about" className="hover:text-white transition-colors">Nosotros</a></li>
+              <li><a href="#contact" className="hover:text-white transition-colors">Contacto</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Términos y Condiciones</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Política de Privacidad</a></li>
+            </ul>
           </div>
 
           {/* Contact */}
-          <div className="flex items-center space-x-6 text-sm">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-1">
+          <div>
+            <h4 className="font-bold mb-4 text-white">Contacto</h4>
+            <div className="space-y-3 text-green-100 text-sm">
+              <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span className="text-green-100">+506 2222-3333</span>
+                <span>+506 2222-3333</span>
               </div>
-              <div className="flex items-center space-x-1">
+              <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span className="text-green-100">hola@claveymetodo.com</span>
+                <span>info@claveymetodo.com</span>
               </div>
-              <div className="flex items-center space-x-1">
-                <MapPin className="h-4 w-4" />
-                <span className="text-green-100">San José, Costa Rica</span>
+              <div className="flex items-start space-x-2">
+                <MapPin className="h-4 w-4 mt-0.5" />
+                <div>
+                  <div>San José, Costa Rica</div>
+                  <div>Zona centro</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div className="text-center mt-4 pt-4 border-t border-green-600">
-          <span className="text-green-100 text-xs">© 2024 Clave y Método. Todos los derechos reservados. • Cubrimos todo Costa Rica – Llegamos hasta ti</span>
         </div>
       </div>
     </footer>
