@@ -46,9 +46,9 @@ const services = [
   },
   {
     icon: TrendingUp,
-    title: "Aceleración de Crecimiento",
-    description: "Escala rápidamente con nuestra experiencia en growth hacking y alianzas estratégicas.",
-    features: ["Análisis de Crecimiento", "Desarrollo de Alianzas", "Expansión Internacional"]
+    title: "Acompañamiento Personalizado",
+    description: "Impulso al crecimiento y desarrollo de tu negocio.",
+    features: ["Implementación de sistemas contables digitales", "Migración a Sistemas especializados", "Soporte continuo"]
   }
 ];
 
@@ -367,6 +367,44 @@ const Services = () => {
                           
                           <div>
                             <h5 className="font-medium mb-2">Seguimiento de pagos recibidos, pendientes y atrasados</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : index === 5 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="ghost" className="w-full group">
+                      Saber Más
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-2xl">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-2xl font-bold mb-2">Nuestro Acompañamiento Adaptado</h3>
+                      </div>
+                      
+                      <div>
+                        <div className="space-y-6">
+                          <div>
+                            <h5 className="font-medium mb-2">1. Configuración inicial del software contable según las necesidades de la empresa</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Capacitación, ajustes y personalización del equipo para el uso correcto de plataformas.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">2. Asesoría en la incorporación de nuevos sistemas o plataformas digitales</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Planificación y ejecución de migración de datos y verificación del funcionamiento correcto.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">3. Acompañamiento durante el uso diario de los sistemas y ayuda en la resolución de problemas.</h5>
                           </div>
                         </div>
                       </div>
