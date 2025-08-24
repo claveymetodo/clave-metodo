@@ -48,6 +48,60 @@ const About = () => {
           </div>
 
           {/* Right Side - Contact Form */}
+          {/* Right Side - Contact Form */}
+          <div className="lg:w-2/3">
+            <Card className="p-12 rounded-l-none lg:rounded-l-none rounded-r-lg">
+              <h3 className="text-3xl font-bold mb-3">Envíanos un Mensaje</h3>
+              <p className="text-base text-muted-foreground mb-8">
+                Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.
+              </p>
+
+              <form className="space-y-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="text-sm font-medium mb-2 block">Nombre *</label>
+                    <Input placeholder="Nombre" className="h-12" />
+                  </div>
+                  <div>
+                    <label className="text-sm font-medium mb-2 block">Apellidos *</label>
+                    <Input placeholder="Apellidos" className="h-12" />
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="text-sm font-medium mb-2 block">Email *</label>
+                    <Input type="email" placeholder="tu@email.com" className="h-12" />
+                  </div>
+                  <div>
+                    <label className="text-sm font-medium mb-2 block">Teléfono</label>
+                    <Input placeholder="+506 0000-0000" className="h-12" />
+                  </div>
+                </div>
+                
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
+                  <Input placeholder="Ej: Restaurante, Nuevo Negocio Tech, Consultorio..." className="h-12" />
+                </div>
+                
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Mensaje *</label>
+                  <Textarea 
+                    placeholder="Cuéntanos sobre tu proyecto empresarial..."
+                    className="min-h-[120px]"
+                  />
+                </div>
+                
+                <Button className="w-full h-12 text-lg bg-[#414f2f] hover:bg-[#414f2f]/90 text-white">
+                  Enviar Mensaje ✉️
+                </Button>
+
+                <p className="text-xs text-muted-foreground text-center">
+                  * Campos obligatorios. Tu información está protegida y nunca será compartida.
+                </p>
+              </form>
+            </Card>
+          </div>
         </div>
       </div>
     </section>
