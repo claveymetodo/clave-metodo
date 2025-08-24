@@ -10,7 +10,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Hablemos de tu Proyecto
+            Hablemos de tu <span className="bg-gradient-to-r from-[#414f2f] to-[#d0966e] bg-clip-text text-transparent">Proyecto</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Estamos listos para ayudarte a crear tu empresa. Agenda una consulta gratuita y 
@@ -51,38 +51,38 @@ const About = () => {
           </div>
 
           {/* Right Side - Contact Form */}
-          <Card className="p-8">
-            <h3 className="text-2xl font-bold mb-2">Envíanos un Mensaje</h3>
-            <p className="text-sm text-muted-foreground mb-6">
+          <Card className="p-12">
+            <h3 className="text-3xl font-bold mb-3">Envíanos un Mensaje</h3>
+            <p className="text-base text-muted-foreground mb-8">
               Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.
             </p>
 
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <form className="space-y-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="text-sm font-medium mb-2 block">Nombre *</label>
-                  <Input placeholder="Nombre" />
+                  <Input placeholder="Nombre" className="h-12" />
                 </div>
                 <div>
                   <label className="text-sm font-medium mb-2 block">Apellidos *</label>
-                  <Input placeholder="Apellidos" />
+                  <Input placeholder="Apellidos" className="h-12" />
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="text-sm font-medium mb-2 block">Email *</label>
-                  <Input type="email" placeholder="tu-email@ejemplo.com" />
+                  <Input type="email" placeholder="tu-email@ejemplo.com" className="h-12" />
                 </div>
                 <div>
                   <label className="text-sm font-medium mb-2 block">Teléfono</label>
-                  <Input placeholder="+506 0000 0000" />
+                  <Input placeholder="+506 0000 0000" className="h-12" />
                 </div>
               </div>
               
               <div>
                 <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
-                <select className="w-full h-11 px-3 rounded-lg border border-input bg-background text-sm">
+                <select className="w-full h-12 px-3 rounded-lg border border-input bg-background text-sm">
                   <option>🔺 Restaurante, Tech Startup, Consultorio...</option>
                   <option>Nueva Startup</option>
                   <option>Negocio Existente</option>
@@ -96,11 +96,11 @@ const About = () => {
                 <label className="text-sm font-medium mb-2 block">Mensaje *</label>
                 <Textarea 
                   placeholder="Cuéntanos sobre tu proyecto empresarial..."
-                  className="min-h-[100px]"
+                  className="min-h-[120px]"
                 />
               </div>
               
-              <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+              <Button className="w-full h-12 text-lg bg-[#414f2f] hover:bg-[#414f2f]/90 text-white">
                 Enviar Mensaje ✉️
               </Button>
 
