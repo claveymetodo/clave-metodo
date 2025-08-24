@@ -9,7 +9,8 @@ import {
   TrendingUp, 
   Code, 
   DollarSign,
-  ArrowRight 
+  ArrowRight,
+  FileText
 } from "lucide-react";
 
 const services = [
@@ -33,15 +34,15 @@ const services = [
   },
   {
     icon: Target,
-    title: "Estrategia Empresaria",
+    title: "Estrategia Empresarial",
     description: "Desarrollamos planes de negocio personalizados y estrategias de crecimiento para tu empresa.",
     features: ["Plan de negocio", "Análisis de mercado", "Estrategia de marketing", "Proyecciones financieras"]
   },
   {
-    icon: Target,
-    title: "Lanzamiento al Mercado",
-    description: "Lanza exitosamente con estrategias de marketing y ventas basadas en datos.",
-    features: ["Estrategia de Mercado", "Desarrollo de Marca", "Optimización de Ventas"]
+    icon: FileText,
+    title: "Gestión Integral Administrativa",
+    description: "Mantenemos tu empresa al día con todas las obligaciones legales y regulatorias. Mantenemos tus finanzas organizadas y bajo control, asegurando que todas tus facturas y cuentas estén al día.",
+    features: ["Facturación electrónica", "Cuentas por pagar y cobrar", "Seguimiento a pagos", "Auditoría"]
   },
   {
     icon: TrendingUp,
@@ -316,6 +317,56 @@ const Services = () => {
                                 Tu negocio seguirá creciendo de manera sostenible y adaptándose a nuevas oportunidades del mercado.
                               </p>
                             </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : index === 4 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="ghost" className="w-full group">
+                      Saber Más
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-2xl">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-2xl font-bold mb-2">Nuestras Administración Financiera</h3>
+                        <p className="text-muted-foreground mb-6">
+                          Ofrecemos la configuración de tu sistema de facturación electrónica, emisión y control de facturas, complementado con reportes periódicos para mantener tus finanzas claras y organizadas.
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        
+                        <div className="space-y-6">
+                          <div>
+                            <h5 className="font-medium mb-2">Generación de facturas que cumplan con los requisitos fiscales</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Asegurar que cada factura tenga toda la información legal necesaria: datos de la empresa, cliente, monto, impuestos, productos o servicios para evitar errores que puedan causar sanciones o problemas contables.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">Generar y monitorear todas las facturas emitidas</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Evitar duplicados y controlar que cada factura esté contabilizada para la contabilidad y reportes fiscales.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">Control de Cuentas por Pagar y por Cobrar</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Seguimientos a proveedores, servicios manteniendo un flujo de servicios saludable y planificado.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">Seguimiento de pagos recibidos, pendientes y atrasados</h5>
                           </div>
                         </div>
                       </div>
