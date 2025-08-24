@@ -1,7 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { 
-  Lightbulb, 
+  Building2, 
   Target, 
   Users, 
   TrendingUp, 
@@ -12,10 +13,10 @@ import {
 
 const services = [
   {
-    icon: Lightbulb,
-    title: "Validación de Ideas",
-    description: "Transforma tu concepto en un modelo de negocio viable con nuestro marco de validación probado.",
-    features: ["Investigación de Mercado", "Análisis de Competencia", "Estrategia de MVP"]
+    icon: Building2,
+    title: "Creación de Empresa",
+    description: "Constitución legal completa, registro mercantil, cédula jurídica y todos los trámites necesarios.",
+    features: ["Constitución de sociedad", "Registro mercantil", "Cédula jurídica", "Libros legales"]
   },
   {
     icon: Code,
@@ -55,11 +56,11 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Servicios Integrales para Startups
+            De la idea al éxito
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Desde el concepto inicial hasta el liderazgo del mercado, proporcionamos soporte integral 
-            en cada etapa del viaje de tu startup.
+            Nuestras soluciones te ofrecen todo lo que necesitas para crear y hacer crecer tu empresa en Costa Rica. 
+            Nosotros nos encargamos de los trámites y gestiones, mientras tú te enfocas en hacer que tu negocio prospere.
           </p>
         </div>
 
@@ -86,10 +87,54 @@ const Services = () => {
                 ))}
               </ul>
 
-              <Button variant="ghost" className="w-full group">
-                Saber Más
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              {index === 0 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="ghost" className="w-full group">
+                      Saber Más
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-2xl">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-2xl font-bold mb-2">Nuestra Asesoría Inicial</h3>
+                        <p className="text-muted-foreground mb-6">
+                          Lanza tu empresa en Costa Rica de manera rápida y segura.
+                          Simplificamos todo el proceso para que tu emprendimiento comience a crecer desde el primer día.
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        
+                        <div className="space-y-4">
+                          <div>
+                            <h5 className="font-medium mb-2">1. Definición de estructura legal, tipo de sociedad y análisis tributario según tu negocio</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Constitución legal, inscripción en el Registro Mercantil y obtención de cédula jurídica. 
+                              Proceso de registro ante la Dirección General de Tributación, permisos y licencias necesarias.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">2. Apertura de Cuentas Bancarias y Operaciones Financieras</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Apoyo en la apertura de cuentas corporativas y configuración de métodos de pago de la mano 
+                              con la implementación del sistema de contabilidad inicial.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : (
+                <Button variant="ghost" className="w-full group">
+                  Saber Más
+                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              )}
             </Card>
           ))}
         </div>
