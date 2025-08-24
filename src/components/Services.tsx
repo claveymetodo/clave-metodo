@@ -32,10 +32,10 @@ const services = [
     features: ["Reclutamiento y Selección de Personal", "Administración de planilla", "Gestión Laboral"]
   },
   {
-    icon: Users,
-    title: "Construcción de Equipos",
-    description: "Recluta talento de primer nivel y construye equipos de alto rendimiento que escalen con tu visión.",
-    features: ["Búsqueda Ejecutiva", "Contratación Técnica", "Construcción de Cultura"]
+    icon: Target,
+    title: "Estrategia Empresaria",
+    description: "Desarrollamos planes de negocio personalizados y estrategias de crecimiento para tu empresa.",
+    features: ["Plan de negocio", "Análisis de mercado", "Estrategia de marketing", "Proyecciones financieras"]
   },
   {
     icon: Target,
@@ -244,6 +244,76 @@ const Services = () => {
                               </p>
                               <p className="text-sm text-muted-foreground">
                                 Desarrollo de Actuariales empresariales.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : index === 3 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="ghost" className="w-full group">
+                      Saber Más
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-3xl">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-2xl font-bold mb-2">Nuestra Dirección de Crecimiento Empresarial</h3>
+                        <p className="text-muted-foreground mb-6">
+                          Desarrollamos un plan integral para guiar el crecimiento de tu empresa. Desde el análisis del mercado hasta la planificación financiera, te ayudamos a definir objetivos claros, tomar decisiones estratégicas y maximizar tus oportunidades de éxito.
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <div className="space-y-6">
+                          <div>
+                            <h5 className="font-medium mb-2">1. Primeros pasos de crecimiento estructural</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Creación de guía estratégica con la visión general del negocio, servicios, propuesta de valor, ventaja competitiva y estructura organizacional que darán claridad y dirección a tu nuevo negocio.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">2. Entender tu entorno de operación</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Segmentación de mercados y clientes potenciales, competencia, tendencias y demanda y oportunidades para anticipar retos.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">3. Plan personalizado para atraer y fidelizar clientes</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Público objetivo, canales de promoción, precios y distribución así como la medición de resultados que nos permitirá ajustar el enfoque del negocio.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">4. Elaboración de presupuestos como herramienta clave en la planificación estratégica</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Proyección de ingresos y gastos identificando la rentabilidad y capacidad de crecimiento continuo dando énfasis en donde debemos colocar nuestros esfuerzos, inversiones y recursos para lograr los objetivos.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">5. Ajustes planificados según la adaptabilidad de los cambios</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Permite al negocio ser flexible y resiliente, maximizando oportunidades y minimizando riesgos financieros.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">6. Acompañamiento estratégico y desarrollo de nuevos proyectos</h5>
+                            <div className="space-y-2">
+                              <p className="text-sm text-muted-foreground">
+                                Nuestra consultoría continua para mantener el control operativo, optimizar procesos y desarrollar nuevos proyectos estratégicos.
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                Tu negocio seguirá creciendo de manera sostenible y adaptándose a nuevas oportunidades del mercado.
                               </p>
                             </div>
                           </div>
