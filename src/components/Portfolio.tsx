@@ -51,7 +51,7 @@ const Portfolio = () => {
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-card/50 rounded-lg border border-border/50">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
                 <Heart className="h-6 w-6 text-white" />
               </div>
               <div>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                   className="p-6 bg-card/80 backdrop-blur-sm border-border/50 hover:shadow-glow transition-all duration-300"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center flex-shrink-0">
                       <value.icon className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -90,9 +90,9 @@ const Portfolio = () => {
             <div className="grid grid-cols-3 gap-4">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-primary mb-1">
-                    {stat.number}
-                  </div>
+                <div className="text-2xl md:text-3xl font-bold text-accent mb-1">
+                  {stat.number}
+                </div>
                   <div className="text-sm text-muted-foreground">
                     {stat.label}
                   </div>
