@@ -10,7 +10,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent leading-tight px-4">
-            ¿Listo para Comenzar a Construir?
+          {"\u200A"}¿Listo para Comenzar a Construir?
           </h1>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
             Hablemos de tu <span className="bg-gradient-to-r from-[#414f2f] to-[#d0966e] bg-clip-text text-transparent">Proyecto</span>
