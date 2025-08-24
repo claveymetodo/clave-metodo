@@ -37,6 +37,15 @@ const About = () => {
                 </Button>
               </div>
             </Card>
+            
+            {/* Team Image */}
+            <div className="mt-8">
+              <img 
+                src="/lovable-uploads/f62a7155-c2f1-4741-80cd-21f5930b82e9.png" 
+                alt="Equipo trabajando en proyectos empresariales"
+                className="w-full rounded-lg"
+              />
+            </div>
           </div>
 
           {/* Right Side - Contact Form */}
