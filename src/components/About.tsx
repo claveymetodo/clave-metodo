@@ -18,7 +18,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-start">
           {/* Left Side - Consultation Card */}
           <div>
             {/* Consulta Gratuita Card */}
