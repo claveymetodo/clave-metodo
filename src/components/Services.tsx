@@ -144,7 +144,7 @@ const Services = () => {
                         <h3 className="text-2xl font-bold mb-2">Nuestras Soluciones Contables</h3>
                         <p className="text-muted-foreground mb-6">
                           Mantén tus finanzas en orden y cumple con tus obligaciones tributarias sin preocupaciones.
-                          Nuestra Contadora te ofrecerá información clara y confiable para que tomes decisiones estratégicas y tu negocio siga creciendo sin contratiempos.
+                          Te ofrecemos información clara y confiable para que tomes decisiones estratégicas y tu negocio siga creciendo sin contratiempos.
                         </p>
                       </div>
                       
