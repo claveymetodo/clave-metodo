@@ -20,7 +20,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Side - Contact Card and Image */}
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* Consulta Gratuita Card */}
             <Card className="p-6 bg-gradient-to-br from-[#414f2f] via-[#414f2f] to-[#d0966e] text-white">
               <div className="text-center">
@@ -38,16 +38,31 @@ const About = () => {
               </div>
             </Card>
 
-            {/* Team Image */}
-            <div className="flex justify-center">
-              <div className="rounded-lg overflow-hidden max-w-md">
-                <img 
-                  src="/lovable-uploads/5a0ce76a-4393-4d59-b0f0-91329f21ff0a.png" 
-                  alt="Equipo trabajando en proyectos empresariales"
-                  className="w-full h-64 object-cover"
-                />
+            {/* Contact Information Cards */}
+            <Card className="p-4 bg-card">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-[#414f2f] rounded-lg flex items-center justify-center">
+                  <span className="text-white text-sm">📞</span>
+                </div>
+                <div>
+                  <div className="font-semibold text-sm">Teléfono</div>
+                  <div className="text-sm text-muted-foreground">+ 506 2222-3333</div>
+                  <div className="text-xs text-muted-foreground">Lunes a Viernes 8:00 AM - 6:00 PM</div>
+                </div>
               </div>
-            </div>
+            </Card>
+
+            <Card className="p-4 bg-card">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-[#414f2f] rounded-lg flex items-center justify-center">
+                  <span className="text-white text-sm">✉️</span>
+                </div>
+                <div>
+                  <div className="font-semibold text-sm">Email</div>
+                  <div className="text-sm text-muted-foreground">info@claveymetodo.com</div>
+                </div>
+              </div>
+            </Card>
           </div>
 
           {/* Right Side - Contact Form */}
@@ -78,18 +93,6 @@ const About = () => {
                   <label className="text-sm font-medium mb-2 block">Teléfono</label>
                   <Input placeholder="+506 0000 0000" className="h-12" />
                 </div>
-              </div>
-              
-              <div>
-                <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
-                <select className="w-full h-12 px-3 rounded-lg border border-input bg-background text-sm">
-                  <option>🔺 Restaurante, Tech Startup, Consultorio...</option>
-                  <option>Nueva Startup</option>
-                  <option>Negocio Existente</option>
-                  <option>Consultorio Médico</option>
-                  <option>Restaurante</option>
-                  <option>Tech Startup</option>
-                </select>
               </div>
               
               <div>
