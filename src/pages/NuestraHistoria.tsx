@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Award, Users, Target } from "lucide-react";
+import { ArrowLeft, Award, Users, Target, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -111,18 +111,18 @@ const NuestraHistoria = () => {
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
                   <div className="text-center">
                     <Award className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">X+ Años</div>
+                    <div className="text-sm font-semibold">13 Años</div>
                     <div className="text-xs text-muted-foreground">Experiencia</div>
                   </div>
                   <div className="text-center">
-                    <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">X+ Empresas</div>
-                    <div className="text-xs text-muted-foreground">Constituidas</div>
+                    <TrendingUp className="h-8 w-8 text-primary mx-auto mb-2" />
+                    <div className="text-sm font-semibold">Revenue & Hospitality</div>
+                    <div className="text-xs text-muted-foreground">Especialidad</div>
                   </div>
                   <div className="text-center">
                     <Target className="h-8 w-8 text-primary mx-auto mb-2" />
                     <div className="text-sm font-semibold">100%</div>
-                    <div className="text-xs text-muted-foreground">Éxito</div>
+                    <div className="text-xs text-muted-foreground">Creativity</div>
                   </div>
                 </div>
               </div>
