@@ -62,12 +62,24 @@ const About = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="text-sm font-medium mb-2 block">Email *</label>
-                  <Input type="email" placeholder="tu-email@ejemplo.com" className="h-12" />
+                  <Input type="email" placeholder="tu@email.com" className="h-12" />
                 </div>
                 <div>
                   <label className="text-sm font-medium mb-2 block">Teléfono</label>
-                  <Input placeholder="+506 0000 0000" className="h-12" />
+                  <Input placeholder="+506 0000-0000" className="h-12" />
                 </div>
+              </div>
+              
+              <div>
+                <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
+                <select className="w-full h-12 px-3 rounded-lg border border-input bg-background text-sm">
+                  <option>🔺 Restaurante, Tech Startup, Consultorio...</option>
+                  <option>Nueva Startup</option>
+                  <option>Negocio Existente</option>
+                  <option>Consultorio Médico</option>
+                  <option>Restaurante</option>
+                  <option>Tech Startup</option>
+                </select>
               </div>
               
               <div>
