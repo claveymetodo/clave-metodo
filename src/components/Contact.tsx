@@ -16,13 +16,7 @@ const Contact = () => {
     <section id="contact" className="py-24">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            ¿Listo para Comenzar a Construir?
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Hablemos sobre tu visión y exploremos cómo Clave & Método puede ayudar a dar vida a tu nuevo negocio. 
-            Ponte en contacto con nuestro equipo hoy.
-          </p>
+          {/* Content removed - moved to About section */}
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
