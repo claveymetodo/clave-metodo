@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Award, Users, Target, TrendingUp } from "lucide-react";
+import { ArrowLeft, Award, Users, Target, TrendingUp, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -128,6 +128,18 @@ const NuestraHistoria = () => {
                     <div className="text-xs text-muted-foreground">Creatividad</div>
                   </div>
                 </div>
+                
+                <div className="mt-6">
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-[#0077B5] hover:bg-[#005885] text-white rounded-lg transition-colors duration-300"
+                  >
+                    <Linkedin className="h-4 w-4 mr-2" />
+                    Ver perfil de LinkedIn
+                  </a>
+                </div>
               </div>
             </Card>
 
@@ -175,6 +187,18 @@ const NuestraHistoria = () => {
                     <div className="text-sm font-semibold">Expert</div>
                     <div className="text-xs text-muted-foreground">Certificado</div>
                   </div>
+                </div>
+                
+                <div className="mt-6">
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-[#0077B5] hover:bg-[#005885] text-white rounded-lg transition-colors duration-300"
+                  >
+                    <Linkedin className="h-4 w-4 mr-2" />
+                    Ver perfil de LinkedIn
+                  </a>
                 </div>
               </div>
             </Card>
