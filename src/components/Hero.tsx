@@ -59,24 +59,16 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Trust statement */}
-            <p className="text-muted-foreground pt-6">
-              Confiado por más de 500 empresas
-            </p>
-
-            {/* Stats */}
+            {/* Features */}
             <div className="grid grid-cols-3 gap-8 pt-6">
-              <div>
-                <div className="text-3xl font-bold text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Empresas creadas</div>
+              <div className="text-center">
+                <div className="text-lg font-semibold text-foreground">Atención personalizada</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-foreground">95%</div>
-                <div className="text-sm text-muted-foreground">Éxito garantizado</div>
+              <div className="text-center">
+                <div className="text-lg font-semibold text-foreground">Disponibilidad 24/7</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-foreground">24/7</div>
-                <div className="text-sm text-muted-foreground">Soporte disponible</div>
+              <div className="text-center">
+                <div className="text-lg font-semibold text-foreground">Soluciones completas</div>
               </div>
             </div>
           </div>
