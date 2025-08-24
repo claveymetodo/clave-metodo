@@ -215,19 +215,32 @@ const Services = () => {
                           
                           <div>
                             <h5 className="font-medium mb-2">2. Gestión de ofertas y contratos laborales</h5>
-                            <p className="text-sm text-muted-foreground">
-                              Elaboración y revisión de contratos según la Legislación Costarricense. 
-                              Manejos de permisos, licencias, reporte de vacaciones. Expedientes digitales y documentos legales del personal.
-                            </p>
+                            <div className="space-y-2">
+                              <p className="text-sm text-muted-foreground">
+                                Elaboración y revisión de contratos según la Legislación Costarricense.
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                Manejos de permisos, licencias, reporte de vacaciones.
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                Expedientes digitales y documentos legales del personal.
+                              </p>
+                            </div>
                           </div>
                           
                           <div>
                             <h5 className="font-medium mb-2">3. Administración de planillas y plataformas de patrono</h5>
-                            <p className="text-sm text-muted-foreground">
-                              Cálculo de salarios, deducciones y prestaciones. 
-                              Declaración salarial para CCSS e INS. 
-                              Desarrollo de Actuariales empresariales.
-                            </p>
+                            <div className="space-y-2">
+                              <p className="text-sm text-muted-foreground">
+                                Cálculo de salarios, deducciones y prestaciones.
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                Declaración salarial para CCSS e INS.
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                Desarrollo de Actuariales empresariales.
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
