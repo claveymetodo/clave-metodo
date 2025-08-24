@@ -112,18 +112,23 @@ const Services = () => {
                         <div className="space-y-4">
                           <div>
                             <h5 className="font-medium mb-2">1. Definición de estructura legal, tipo de sociedad y análisis tributario según tu negocio</h5>
-                            <p className="text-sm text-muted-foreground">
-                              Constitución legal, inscripción en el Registro Mercantil y obtención de cédula jurídica. 
-                              Proceso de registro ante la Dirección General de Tributación, permisos y licencias necesarias.
-                            </p>
+                            <div className="space-y-2">
+                              <p className="text-sm text-muted-foreground">
+                                Constitución legal, inscripción en el Registro Mercantil y obtención de cédula jurídica.
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                Proceso de registro ante la Dirección General de Tributación, permisos y licencias necesarias.
+                              </p>
+                            </div>
                           </div>
                           
                           <div>
                             <h5 className="font-medium mb-2">2. Apertura de Cuentas Bancarias y Operaciones Financieras</h5>
-                            <p className="text-sm text-muted-foreground">
-                              Apoyo en la apertura de cuentas corporativas y configuración de métodos de pago de la mano 
-                              con la implementación del sistema de contabilidad inicial.
-                            </p>
+                            <div className="space-y-2">
+                              <p className="text-sm text-muted-foreground">
+                                Apoyo en la apertura de cuentas corporativas y configuración de métodos de pago de la mano con la implementación del sistema de contabilidad inicial.
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
