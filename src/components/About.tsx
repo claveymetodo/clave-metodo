@@ -12,9 +12,12 @@ const About = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent leading-tight px-4">
           {"\u200A"}¿Listo para Comenzar a Construir?
           </h1>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground leading-tight">
             Hablemos de tu <span className="bg-gradient-to-r from-[#414f2f] to-[#d0966e] bg-clip-text text-transparent">Proyecto</span>
           </h2>
+          <p className="text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
+            Estamos listos para ayudarte a crear tu empresa. Agenda una consulta gratuita y descubre cómo podemos hacer realidad tu proyecto empresarial.
+          </p>
         </div>
 
         <div className="flex flex-col lg:flex-row">
