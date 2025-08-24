@@ -9,7 +9,7 @@ const About = () => {
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent leading-tight px-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent leading-tight px-4">
           {"\u200A"}¿Listo para Comenzar a Construir?
           </h1>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
