@@ -184,29 +184,31 @@ const NuestraHistoria = () => {
           <Card className="p-12 glow-card hover:shadow-glow transition-all duration-300 bg-gradient-to-r from-[#414f2f]/10 to-[#d0966e]/10 backdrop-blur-sm border-border/50">
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
-                Juntos Hacemos la Diferencia
+                Juntas Hacemos la Diferencia
               </h2>
               
               <div className="max-w-md mx-auto mb-8">
                 <div className="w-full h-64 rounded-lg overflow-hidden bg-gradient-primary p-1">
                   <div className="w-full h-full rounded-lg bg-background flex items-center justify-center">
-                    <div className="w-full h-full rounded-lg bg-muted flex items-center justify-center text-muted-foreground">
-                      Foto de Ambos Juntos
-                    </div>
+                    <img 
+                      src="/lovable-uploads/0aa75494-7ac1-4e5b-aaf6-549cd602880d.png" 
+                      alt="Jennifer y Paola - Fundadoras de Clave & Método trabajando juntas"
+                      className="w-full h-full rounded-lg object-cover"
+                    />
                   </div>
                 </div>
               </div>
 
               <div className="max-w-4xl mx-auto space-y-6">
                 <p className="text-lg text-muted-foreground">
-                  Nuestra asociación nació de una visión compartida: simplificar el proceso de creación y 
+                  Nuestra unión nació de una visión compartida: simplificar el proceso de creación y 
                   crecimiento empresarial en Costa Rica. Combinamos nuestras diferentes especialidades y 
                   experiencias para ofrecer un servicio integral que realmente marque la diferencia.
                 </p>
                 
                 <p className="text-lg text-muted-foreground">
                   Creemos firmemente que cada empresario merece tener acceso a asesoría profesional de calidad, 
-                  sin complicaciones burocráticas. Por eso, nos dedicamos a ser el puente entre tu visión 
+                  sin obstáculos. Por eso, nos dedicamos a ser el puente entre tu visión 
                   empresarial y su realización exitosa.
                 </p>
 
