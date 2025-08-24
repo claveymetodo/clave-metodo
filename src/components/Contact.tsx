@@ -15,12 +15,12 @@ const Contact = () => {
   return (
     <section id="contact" className="py-24">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             ¿Listo para Comenzar a Construir?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Hablemos sobre tu visión y exploremos cómo TICO puede ayudar a dar vida a tu startup. 
+            Hablemos sobre tu visión y exploremos cómo Clave & Método puede ayudar a dar vida a tu nuevo negocio. 
             Ponte en contacto con nuestro equipo hoy.
           </p>
         </div>
@@ -48,13 +48,13 @@ const Contact = () => {
               
               <div>
                 <label className="text-sm font-medium mb-2 block">Empresa</label>
-                <Input placeholder="Nombre de tu startup" />
+                <Input placeholder="Nombre de tu nuevo negocio" />
               </div>
               
               <div>
                 <label className="text-sm font-medium mb-2 block">Tipo de Proyecto</label>
                 <select className="w-full h-11 px-3 rounded-lg border border-input bg-background">
-                  <option>Nueva Startup</option>
+                  <option>Nuevo Negocio</option>
                   <option>Negocio Existente</option>
                   <option>Oportunidad de Inversión</option>
                   <option>Asociación</option>
@@ -82,7 +82,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6">Ponte en contacto</h3>
               <p className="text-muted-foreground mb-8">
                 ¿Listo para transformar tu idea en la próxima gran cosa? Nuestro equipo está aquí para 
-                ayudarte a navegar cada paso del viaje de tu startup.
+                ayudarte a navegar cada paso del viaje de tu nuevo negocio.
               </p>
             </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Escríbenos</div>
-                  <div className="text-muted-foreground">hola@ticostudio.com</div>
+                  <div className="text-muted-foreground">hola@claveymetodo.com</div>
                 </div>
               </div>
 

@@ -81,7 +81,7 @@ const About = () => {
                 
                 <div>
                   <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
-                  <Input placeholder="Ej: Restaurante, Tech Startup, Consultorio..." className="h-12" />
+                  <Input placeholder="Ej: Restaurante, Nuevo Negocio Tech, Consultorio..." className="h-12" />
                 </div>
                 
                 <div>

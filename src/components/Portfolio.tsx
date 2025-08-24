@@ -90,7 +90,7 @@ const Portfolio = () => {
             <div className="grid grid-cols-3 gap-4">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-accent mb-1">
+                <div className="text-2xl md:text-3xl font-bold text-[#414f2f] mb-1">
                   {stat.number}
                 </div>
                   <div className="text-sm text-muted-foreground">
