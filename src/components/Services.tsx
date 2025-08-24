@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { 
   Building2, 
+  Calculator,
   Target, 
   Users, 
   TrendingUp, 
@@ -19,10 +20,10 @@ const services = [
     features: ["Constitución de sociedad", "Registro mercantil", "Cédula jurídica", "Libros legales"]
   },
   {
-    icon: Code,
-    title: "Desarrollo de Producto",
-    description: "Construye productos de vanguardia con nuestros equipos de ingeniería y diseño de clase mundial.",
-    features: ["Arquitectura Técnica", "Diseño UI/UX", "Aseguramiento de Calidad"]
+    icon: Calculator,
+    title: "Contabilidad",
+    description: "Llevamos la contabilidad completa de tu empresa con reportes mensuales y declaraciones.",
+    features: ["Contabilidad mensual", "Declaraciones fiscales", "Estados financieros", "Reportes gerenciales"]
   },
   {
     icon: DollarSign,
@@ -122,6 +123,60 @@ const Services = () => {
                             <p className="text-sm text-muted-foreground">
                               Apoyo en la apertura de cuentas corporativas y configuración de métodos de pago de la mano 
                               con la implementación del sistema de contabilidad inicial.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : index === 1 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="ghost" className="w-full group">
+                      Saber Más
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-2xl">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-2xl font-bold mb-2">Nuestras Soluciones Contables</h3>
+                        <p className="text-muted-foreground mb-6">
+                          Mantén tus finanzas en orden y cumple con tus obligaciones tributarias sin preocupaciones.
+                          Nuestra Contadora te ofrecerá información clara y confiable para que tomes decisiones estratégicas y tu negocio siga creciendo sin contratiempos.
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        
+                        <div className="space-y-4">
+                          <div>
+                            <h5 className="font-medium mb-2">1. Elaboración y Presentación de Declaraciones de IVA</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Registro y verificación de facturas emitidas y recibidas, cálculo del IVA a pagar o crédito fiscal, presentación en ATV o TRIBU-CR.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">2. Declaración de Impuesto sobre la Renta</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Cálculo de renta líquida gravable; preparación y presentación en la plataforma tributaria correspondiente.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">3. Contabilidad Mensual Completa</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Registro de ingresos, gastos, activos y pasivos y conciliaciones bancarias.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">4. Preparación de Estados Financieros</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Estado de resultados, balance general y flujo de efectivo, con interpretación clara de los resultados para una mejor toma de decisiones.
                             </p>
                           </div>
                         </div>
