@@ -82,24 +82,29 @@ const NuestraHistoria = () => {
               <div className="text-center">
                 <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-primary p-1">
                   <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                    <div className="w-44 h-44 rounded-full bg-muted flex items-center justify-center text-muted-foreground">
-                      Tu Foto
-                    </div>
+                    <img 
+                      src="/lovable-uploads/3f15b28f-149c-4cfb-a052-b8dbcb74cc9c.png" 
+                      alt="Paola Marín Trejos - Co-fundadora de Clave & Método"
+                      className="w-44 h-44 rounded-full object-cover"
+                    />
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold mb-2 text-foreground">Tu Nombre</h3>
-                <p className="text-lg text-primary mb-6">Co-fundador & Director Ejecutivo</p>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Paola Marín Trejos</h3>
+                <p className="text-lg text-primary mb-6">Raíz Estratégica del Negocio | Co-fundadora</p>
                 
                 <div className="text-left space-y-4 mb-8">
                   <p className="text-muted-foreground">
-                    Escribe aquí tu introducción personal, tu experiencia profesional, 
-                    tus logros más importantes y qué te motivó a crear Clave y Método. 
-                    Comparte tu visión y compromiso con el éxito empresarial de tus clientes.
+                    Graduada de Bachillerato en Turismo y actualmente cursando la Licenciatura con énfasis en Hoteles & Restaurantes, comencé mi carrera en el área de Recepción y Reservas, y luego avancé al área Comercial como Gerente de Ventas.
                   </p>
                   <p className="text-muted-foreground">
-                    Menciona tu formación académica, años de experiencia, y los sectores 
-                    o tipos de empresas en los que te especializas.
+                    Acepté el reto de ser Coordinadora de Bodas y Grupos, sumando un valor extra a mi trayectoria al crear eventos y retiros inolvidables desde cero, lo que se ha convertido en una de mis experiencias favoritas.
+                  </p>
+                  <p className="text-muted-foreground">
+                    También tuve la oportunidad de formarme en Gestión de Talento Humano bajo la mentoría de una excelente profesional, aprendiendo todo sobre recursos humanos, la creación de procesos, la gestión y motivación del talento.
+                  </p>
+                  <p className="text-muted-foreground">
+                    Actualmente lidero la apertura y operación estratégica de una empresa emergente en el área de Turismo, un proyecto que me apasiona y que me permite ser parte de todo el proceso de crecimiento de un negocio.
                   </p>
                 </div>
 
