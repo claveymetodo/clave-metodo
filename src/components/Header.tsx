@@ -13,14 +13,14 @@ const Header = () => {
           <a href="#inicio" className="text-foreground hover:text-primary transition-colors">
             Inicio
           </a>
-          <a href="#servicios" className="text-foreground hover:text-primary transition-colors">
+          <a href="#services" className="text-foreground hover:text-primary transition-colors">
             Servicios
           </a>
           <a href="#nosotros" className="text-foreground hover:text-primary transition-colors">
-            Nosotros
+            Nuestra Historia
           </a>
-          <a href="#contacto" className="text-foreground hover:text-primary transition-colors">
-            Contacto
+          <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            Hablemos
           </a>
         </nav>
 
