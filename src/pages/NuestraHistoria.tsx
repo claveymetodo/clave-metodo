@@ -106,6 +106,9 @@ const NuestraHistoria = () => {
                   <p className="text-muted-foreground">
                     Actualmente lidero la apertura y operación estratégica de una empresa emergente en el área de Turismo, un proyecto que me apasiona y que me permite ser parte de todo el proceso de crecimiento de un negocio.
                   </p>
+                  <p className="text-muted-foreground">
+                    La experiencia de aprender constantemente y ver cómo un proyecto se materializa y funciona es invaluable.
+                  </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
