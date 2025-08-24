@@ -5,8 +5,8 @@ import { useState } from "react";
 const WhatsAppChat = () => {
   const [isOpen, setIsOpen] = useState(false);
   
-  // Replace with your actual WhatsApp number (include country code without +)
-  const whatsappNumber = "50600000000"; // Example: Costa Rica number
+  // WhatsApp number for Clave y Método
+  const whatsappNumber = "50684119315";
   const message = "Hola! Me interesa conocer más sobre sus servicios empresariales.";
   
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
