@@ -26,10 +26,10 @@ const services = [
     features: ["Contabilidad mensual", "Declaraciones fiscales", "Estados financieros", "Reportes gerenciales"]
   },
   {
-    icon: DollarSign,
-    title: "Financiamiento e Inversión",
-    description: "Accede a capital y redes de inversores para impulsar el crecimiento de tu startup.",
-    features: ["Financiamiento Semilla", "Series A-C", "Conexiones con Inversores"]
+    icon: Users,
+    title: "Gestión del Talento",
+    description: "Gestión completa de personal, planillas y cumplimiento laboral.",
+    features: ["Reclutamiento y Selección de Personal", "Administración de planilla", "Gestión Laboral"]
   },
   {
     icon: Users,
@@ -177,6 +177,57 @@ const Services = () => {
                             <h5 className="font-medium mb-2">4. Preparación de Estados Financieros</h5>
                             <p className="text-sm text-muted-foreground">
                               Estado de resultados, balance general y flujo de efectivo, con interpretación clara de los resultados para una mejor toma de decisiones.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : index === 2 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="ghost" className="w-full group">
+                      Saber Más
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-2xl">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-2xl font-bold mb-2">Nuestra Gestión de Talento Humano</h3>
+                        <p className="text-muted-foreground mb-6">
+                          Mantén tu equipo organizado y gestiona tus recursos humanos sin preocupaciones.
+                          Nos encargamos del cumplimiento laboral ofreciéndote información clara y confiable para que tu negocio crezca con un equipo motivado y bien gestionado.
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        
+                        <div className="space-y-4">
+                          <div>
+                            <h5 className="font-medium mb-2">1. Proceso de reclutamiento completo</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Publicación de vacantes, entrevistas, evaluación de candidatos y reportes de terna.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">2. Gestión de ofertas y contratos laborales</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Elaboración y revisión de contratos según la Legislación Costarricense 
+                              Manejos de permisos, licencias, reporte de vacaciones 
+                              Expedientes digitales y documentos legales del personal.
+                            </p>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2">3. Administración de planillas y plataformas de patrono</h5>
+                            <p className="text-sm text-muted-foreground">
+                              Cálculo de salarios, deducciones y prestaciones
+                              Declaración salarial para CCSS e INS 
+                              Desarrollo de Actuariales empresariales
                             </p>
                           </div>
                         </div>
