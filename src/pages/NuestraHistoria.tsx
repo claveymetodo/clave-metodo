@@ -214,16 +214,16 @@ const NuestraHistoria = () => {
 
                 <div className="grid md:grid-cols-3 gap-8 pt-8">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                    <div className="text-sm text-muted-foreground">Empresas Constituidas</div>
+                    <div className="text-3xl font-bold text-primary mb-2">100%</div>
+                    <div className="text-sm text-muted-foreground">Enfoque Personalizado</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">10+</div>
-                    <div className="text-sm text-muted-foreground">Años de Experiencia Combinada</div>
+                    <div className="text-3xl font-bold text-primary mb-2">Pasión</div>
+                    <div className="text-sm text-muted-foreground">por lo que hacemos</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">98%</div>
-                    <div className="text-sm text-muted-foreground">Clientes Satisfechos</div>
+                    <div className="text-3xl font-bold text-primary mb-2">Impulso</div>
+                    <div className="text-sm text-muted-foreground">estratégico</div>
                   </div>
                 </div>
               </div>
