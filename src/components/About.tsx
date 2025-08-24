@@ -18,8 +18,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Left Side - Contact Card and Image */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          {/* Left Side - Consultation Card */}
           <div>
             {/* Consulta Gratuita Card */}
             <Card className="p-8 bg-gradient-to-r from-[#414f2f] to-[#d0966e] text-white max-w-sm">
