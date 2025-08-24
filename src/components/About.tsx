@@ -1,106 +1,109 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  Award, 
-  Users2, 
-  Globe, 
-  Target,
-  ArrowRight
-} from "lucide-react";
-
-const stats = [
-  { icon: Award, value: "15 Años", label: "Experiencia en la Industria" },
-  { icon: Users2, value: "200+", label: "Miembros del Equipo" },
-  { icon: Globe, value: "25+", label: "Países Atendidos" },
-  { icon: Target, value: "50+", label: "Salidas Exitosas" }
-];
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-gradient-subtle">
+    <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Content */}
-          <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              Formando los Líderes del Mañana
-            </h2>
-            
-            <p className="text-xl text-muted-foreground mb-8">
-              TICO Startup Studio es más que una incubadora – somos tu socio co-fundador. 
-              Con más de 15 años de experiencia construyendo y escalando empresas, proporcionamos la 
-              orientación estratégica, recursos y red necesarios para transformar ideas revolucionarias 
-              en negocios líderes del mercado.
-            </p>
-
-            <div className="space-y-6 mb-8">
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center mt-1">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Modelo de Co-creación</h4>
-                  <p className="text-muted-foreground">No solo invertimos – construimos junto a ti como verdaderos socios.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 bg-secondary rounded-full flex items-center justify-center mt-1">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Metodología Probada</h4>
-                  <p className="text-muted-foreground">Nuestro enfoque sistemático ha creado miles de millones en valor para accionistas.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 bg-accent rounded-full flex items-center justify-center mt-1">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Red Global</h4>
-                  <p className="text-muted-foreground">Accede a nuestra extensa red de inversores, mentores y expertos de la industria.</p>
-                </div>
-              </div>
-            </div>
-
-            <Button variant="hero" size="lg">
-              Asociarse Con Nosotros
-              <ArrowRight className="ml-2" />
-            </Button>
-          </div>
-
-          {/* Stats Grid */}
-          <div className="grid grid-cols-2 gap-6">
-            {stats.map((stat, index) => (
-              <Card 
-                key={index}
-                className="p-6 text-center glow-card hover:shadow-glow transition-all duration-300 hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border/50"
-              >
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <stat.icon className="h-6 w-6 text-white" />
-                </div>
-                <div className="text-3xl font-bold text-primary mb-2">{stat.value}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </Card>
-            ))}
-          </div>
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+            Hablemos de tu Proyecto
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Estamos listos para ayudarte a crear tu empresa. Agenda una consulta gratuita y 
+            descubre cómo podemos hacer realidad tu proyecto empresarial.
+          </p>
         </div>
 
-        {/* Mission Statement */}
-        <div className="mt-20 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">Nuestra Misión</h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              "Democratizar el emprendimiento proporcionando recursos, experiencia y capital de clase mundial 
-              a fundadores visionarios que construyen el futuro. Creemos que las grandes ideas pueden venir de 
-              cualquier lugar, y nuestro trabajo es ayudarlas a alcanzar su máximo potencial."
-            </p>
-            <div className="mt-6 text-primary font-semibold">
-              — El Equipo TICO
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          {/* Left Side - Contact Card and Image */}
+          <div className="space-y-8">
+            {/* Consulta Gratuita Card */}
+            <Card className="p-8 bg-gradient-to-br from-green-600 to-orange-400 text-white">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold mb-4">📞 Consulta Gratuita</h3>
+                <p className="mb-6 text-green-50">
+                  Agenda una consulta sin costo y descubre cómo podemos ayudarte a crear tu empresa exitosa.
+                </p>
+                <Button 
+                  variant="outline" 
+                  className="bg-white/10 text-white border-white/20 hover:bg-white/20"
+                >
+                  Agendar Consulta
+                </Button>
+              </div>
+            </Card>
+
+            {/* Placeholder for Image */}
+            <div className="bg-muted rounded-lg h-64 flex items-center justify-center">
+              <p className="text-muted-foreground text-center">
+                [Imagen del equipo o oficina]
+              </p>
             </div>
           </div>
+
+          {/* Right Side - Contact Form */}
+          <Card className="p-8">
+            <h3 className="text-2xl font-bold mb-2">Envíanos un Mensaje</h3>
+            <p className="text-sm text-muted-foreground mb-6">
+              Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.
+            </p>
+
+            <form className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Nombre *</label>
+                  <Input placeholder="Nombre" />
+                </div>
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Apellidos *</label>
+                  <Input placeholder="Apellidos" />
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Email *</label>
+                  <Input type="email" placeholder="tu-email@ejemplo.com" />
+                </div>
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Teléfono</label>
+                  <Input placeholder="+506 0000 0000" />
+                </div>
+              </div>
+              
+              <div>
+                <label className="text-sm font-medium mb-2 block">Tipo de Empresa</label>
+                <select className="w-full h-11 px-3 rounded-lg border border-input bg-background text-sm">
+                  <option>🔺 Restaurante, Tech Startup, Consultorio...</option>
+                  <option>Nueva Startup</option>
+                  <option>Negocio Existente</option>
+                  <option>Consultorio Médico</option>
+                  <option>Restaurante</option>
+                  <option>Tech Startup</option>
+                </select>
+              </div>
+              
+              <div>
+                <label className="text-sm font-medium mb-2 block">Mensaje *</label>
+                <Textarea 
+                  placeholder="Cuéntanos sobre tu proyecto empresarial..."
+                  className="min-h-[100px]"
+                />
+              </div>
+              
+              <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                Enviar Mensaje ✉️
+              </Button>
+
+              <p className="text-xs text-muted-foreground text-center">
+                * Campos obligatorios. Tu información está protegida y nunca será compartida.
+              </p>
+            </form>
+          </Card>
         </div>
       </div>
     </section>
