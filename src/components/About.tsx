@@ -20,47 +20,22 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Side - Contact Card and Image */}
-          <div className="space-y-6">
+          <div>
             {/* Consulta Gratuita Card */}
-            <Card className="p-6 bg-gradient-to-br from-[#414f2f] via-[#414f2f] to-[#d0966e] text-white">
-              <div className="text-center">
-                <h3 className="text-xl font-bold mb-3">💡 Consulta Gratuita</h3>
-                <p className="mb-4 text-sm text-green-50">
+            <Card className="p-8 bg-gradient-to-r from-[#414f2f] to-[#d0966e] text-white max-w-sm">
+              <div>
+                <h3 className="text-xl font-bold mb-4 flex items-center">
+                  <span className="mr-2">💡</span> Consulta Gratuita
+                </h3>
+                <p className="mb-6 text-sm text-white/90 leading-relaxed">
                   Agenda una consulta sin costo y descubre cómo podemos ayudarte a crear tu empresa exitosa.
                 </p>
                 <Button 
                   variant="outline" 
-                  size="sm"
-                  className="bg-white/10 text-white border-white/20 hover:bg-white/20"
+                  className="bg-white/20 text-white border-white/30 hover:bg-white/30 px-6 py-2"
                 >
                   Agendar Consulta
                 </Button>
-              </div>
-            </Card>
-
-            {/* Contact Information Cards */}
-            <Card className="p-4 bg-card">
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-[#414f2f] rounded-lg flex items-center justify-center">
-                  <span className="text-white text-sm">📞</span>
-                </div>
-                <div>
-                  <div className="font-semibold text-sm">Teléfono</div>
-                  <div className="text-sm text-muted-foreground">+ 506 2222-3333</div>
-                  <div className="text-xs text-muted-foreground">Lunes a Viernes 8:00 AM - 6:00 PM</div>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-4 bg-card">
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-[#414f2f] rounded-lg flex items-center justify-center">
-                  <span className="text-white text-sm">✉️</span>
-                </div>
-                <div>
-                  <div className="font-semibold text-sm">Email</div>
-                  <div className="text-sm text-muted-foreground">info@claveymetodo.com</div>
-                </div>
               </div>
             </Card>
           </div>
