@@ -19,12 +19,47 @@ const NuestraHistoria = () => {
               <ArrowLeft className="mr-2 h-4 w-4" />
               Volver al inicio
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-primary bg-clip-text text-transparent">
               Nuestra Historia
             </h1>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Text Content */}
+            <div className="space-y-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+                Te la contamos:
+              </h2>
+              
+              <div className="space-y-6 text-muted-foreground">
+                <p className="text-lg">
+                  Nos conocimos en 2020 trabajando juntas: Jennifer como Analista Contable y Paola como Encargada de Bodas y Grupos. Desde el primer día hicimos un excelente equipo, y de ahí nació una linda amistad.
+                </p>
+                
+                <p className="text-lg">
+                  Con el paso de los años, Jennifer fue escalando posiciones hasta convertirse en Contadora, mientras que Paola continuó desarrollando su carrera profesional en el área de Turismo.
+                </p>
+                
+                <p className="text-lg">
+                  A inicios de 2025, decidimos unir nuestra experiencia y crear nuestra primera empresa desde cero. Nos encargamos de todo el proceso: inscripción, licencias y contabilidad, ayudando a un empresario con una idea espectacular que necesitaba apoyo para desarrollarla.
+                </p>
+                
+                <p className="text-lg">
+                  Durante este proceso nos dimos cuenta de que nos apasiona formar parte de nuevas proyecciones, aperturas y hacer realidad los sueños de otros, y así nació Clave & Método.
+                </p>
+                
+                <p className="text-lg">
+                  La <strong className="text-primary">clave</strong> del negocio representa la "C" de Codero, el apellido de Jennifer, quien es la raíz financiera del negocio, liderando todo lo relacionado con finanzas y asegurando que cada proyecto cumpla con los requisitos necesarios para prosperar.
+                </p>
+                
+                <p className="text-lg">
+                  El <strong className="text-primary">método</strong> representa la "M" de Marín, el apellido de Paola, quien es la raíz estratégica del negocio; enfocándose en los detalles de apertura, gestión y crecimiento empresarial, así como en la planificación de estrategias de venta para impulsar el éxito de cada proyecto.
+                </p>
+              </div>
+            </div>
             
             {/* Partnership Image */}
-            <div className="max-w-2xl mx-auto mb-12">
+            <div className="lg:pl-8">
               <div className="rounded-2xl overflow-hidden shadow-elegant">
                 <img 
                   src="/lovable-uploads/89607c91-dfc8-4045-be20-3419cd80d72e.png" 
@@ -32,36 +67,6 @@ const NuestraHistoria = () => {
                   className="w-full h-auto object-cover"
                 />
               </div>
-            </div>
-
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-foreground">
-              Te la contamos:
-            </h2>
-            
-            <div className="max-w-4xl mx-auto text-left space-y-6 text-muted-foreground">
-              <p className="text-lg">
-                Nos conocimos en 2020 trabajando juntas: Jennifer como Analista Contable y Paola como Encargada de Bodas y Grupos. Desde el primer día hicimos un excelente equipo, y de ahí nació una linda amistad.
-              </p>
-              
-              <p className="text-lg">
-                Con el paso de los años, Jennifer fue escalando posiciones hasta convertirse en Contadora, mientras que Paola continuó desarrollando su carrera profesional en el área de Turismo.
-              </p>
-              
-              <p className="text-lg">
-                A inicios de 2025, decidimos unir nuestra experiencia y crear nuestra primera empresa desde cero. Nos encargamos de todo el proceso: inscripción, licencias y contabilidad, ayudando a un empresario con una idea espectacular que necesitaba apoyo para desarrollarla.
-              </p>
-              
-              <p className="text-lg">
-                Durante este proceso nos dimos cuenta de que nos apasiona formar parte de nuevas proyecciones, aperturas y hacer realidad los sueños de otros, y así nació Clave & Método.
-              </p>
-              
-              <p className="text-lg">
-                La <strong className="text-primary">clave</strong> del negocio representa la "C" de Codero, el apellido de Jennifer, quien es la raíz financiera del negocio, liderando todo lo relacionado con finanzas y asegurando que cada proyecto cumpla con los requisitos necesarios para prosperar.
-              </p>
-              
-              <p className="text-lg">
-                El <strong className="text-primary">método</strong> representa la "M" de Marín, el apellido de Paola, quien es la raíz estratégica del negocio; enfocándose en los detalles de apertura, gestión y crecimiento empresarial, así como en la planificación de estrategias de venta para impulsar el éxito de cada proyecto.
-              </p>
             </div>
           </div>
         </div>
