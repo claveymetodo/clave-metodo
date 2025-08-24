@@ -49,14 +49,18 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg">
-                Empezar Ahora
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <a href="#about">
+                <Button className="bg-primary hover:bg-[#d0966e] text-primary-foreground px-8 py-3 text-lg transition-colors duration-300 w-full sm:w-auto">
+                  Empezar Ahora
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </a>
               
-              <Button variant="outline" className="px-8 py-3 text-lg">
-                Conocer Servicios
-              </Button>
+              <a href="#services">
+                <Button variant="outline" className="px-8 py-3 text-lg hover:bg-[#d0966e] hover:text-white hover:border-[#d0966e] transition-colors duration-300 w-full sm:w-auto">
+                  Conocer Servicios
+                </Button>
+              </a>
             </div>
 
             {/* Features */}
