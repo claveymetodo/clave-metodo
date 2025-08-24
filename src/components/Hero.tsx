@@ -55,12 +55,6 @@ const Hero = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </a>
-              
-              <a href="#services">
-                <Button variant="outline" className="px-8 py-3 text-lg hover:bg-[#d0966e] hover:text-white hover:border-[#d0966e] transition-colors duration-300 w-full sm:w-auto">
-                  Conocer Servicios
-                </Button>
-              </a>
             </div>
 
             {/* Features */}
