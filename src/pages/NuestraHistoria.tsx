@@ -122,7 +122,7 @@ const NuestraHistoria = () => {
                   <div className="text-center">
                     <Target className="h-8 w-8 text-primary mx-auto mb-2" />
                     <div className="text-sm font-semibold">100%</div>
-                    <div className="text-xs text-muted-foreground">Creativity</div>
+                    <div className="text-xs text-muted-foreground">Creatividad</div>
                   </div>
                 </div>
               </div>
