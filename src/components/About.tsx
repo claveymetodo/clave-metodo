@@ -22,10 +22,10 @@ const About = () => {
           {/* Left Side - Contact Card and Image */}
           <div className="space-y-8">
             {/* Consulta Gratuita Card */}
-            <Card className="p-8 bg-gradient-to-br from-green-600 to-orange-400 text-white">
+            <Card className="p-8 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">📞 Consulta Gratuita</h3>
-                <p className="mb-6 text-green-50">
+                <h3 className="text-2xl font-bold mb-4">💡 Consulta Gratuita</h3>
+                <p className="mb-6 text-blue-50">
                   Agenda una consulta sin costo y descubre cómo podemos ayudarte a crear tu empresa exitosa.
                 </p>
                 <Button 
@@ -37,11 +37,13 @@ const About = () => {
               </div>
             </Card>
 
-            {/* Placeholder for Image */}
-            <div className="bg-muted rounded-lg h-64 flex items-center justify-center">
-              <p className="text-muted-foreground text-center">
-                [Imagen del equipo o oficina]
-              </p>
+            {/* Team Image */}
+            <div className="rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/5a0ce76a-4393-4d59-b0f0-91329f21ff0a.png" 
+                alt="Equipo trabajando en proyectos empresariales"
+                className="w-full h-64 object-cover"
+              />
             </div>
           </div>
 
