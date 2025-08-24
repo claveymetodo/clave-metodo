@@ -41,7 +41,7 @@ const services = [
   {
     icon: FileText,
     title: "Gestión Integral Administrativa",
-    description: "Mantenemos tu empresa al día con todas las obligaciones legales y regulatorias. Mantenemos tus finanzas organizadas y bajo control, asegurando que todas tus facturas y cuentas estén al día.",
+    description: "Mantenemos tus finanzas organizadas y bajo control, asegurando que todas tus facturas y cuentas estén al día.",
     features: ["Facturación electrónica", "Cuentas por pagar y cobrar", "Seguimiento a pagos", "Auditoría"]
   },
   {
@@ -334,7 +334,7 @@ const Services = () => {
                   <DialogContent className="max-w-2xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestras Administración Financiera</h3>
+                        <h3 className="text-2xl font-bold mb-2">Nuestra Gestión Administrativa</h3>
                         <p className="text-muted-foreground mb-6">
                           Ofrecemos la configuración de tu sistema de facturación electrónica, emisión y control de facturas, complementado con reportes periódicos para mantener tus finanzas claras y organizadas.
                         </p>
@@ -361,7 +361,7 @@ const Services = () => {
                           <div>
                             <h5 className="font-medium mb-2">Control de Cuentas por Pagar y por Cobrar</h5>
                             <p className="text-sm text-muted-foreground">
-                              Seguimientos a proveedores, servicios manteniendo un flujo de servicios saludable y planificado.
+                              Seguimiento a proveedores y servicios, asegurando un flujo de operaciones planificado y constante.
                             </p>
                           </div>
                           
