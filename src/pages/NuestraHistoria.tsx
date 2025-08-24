@@ -80,12 +80,12 @@ const NuestraHistoria = () => {
             {/* Partner 1 */}
             <Card className="p-8 glow-card hover:shadow-glow transition-all duration-300 bg-card/50 backdrop-blur-sm border-border/50">
               <div className="text-center">
-                <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-primary p-1">
+                <div className="w-56 h-56 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-primary p-1">
                   <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
                     <img 
-                      src="/lovable-uploads/3f15b28f-149c-4cfb-a052-b8dbcb74cc9c.png" 
+                      src="/lovable-uploads/a1146fe9-f133-46a6-a363-a06d449a51d8.png" 
                       alt="Paola Marín Trejos - Co-fundadora de Clave & Método"
-                      className="w-44 h-44 rounded-full object-cover"
+                      className="w-52 h-52 rounded-full object-cover"
                     />
                   </div>
                 </div>
