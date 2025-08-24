@@ -55,15 +55,15 @@ const Footer = () => {
             <h4 className="font-bold mb-4 text-white">Contacto</h4>
             <div className="space-y-3 text-green-100 text-sm">
               <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4" />
+                <Phone className="h-4 w-4 text-[#d0966e]" />
                 <span>+506 2222-3333</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Mail className="h-4 w-4" />
+                <Mail className="h-4 w-4 text-[#d0966e]" />
                 <span>hola@claveymetodo.com</span>
               </div>
               <div className="flex items-start space-x-2">
-                <MapPin className="h-4 w-4 mt-0.5" />
+                <MapPin className="h-4 w-4 mt-0.5 text-[#d0966e]" />
                 <div>
                   <div>Cubrimos todo Costa Rica – Llegamos hasta ti</div>
                 </div>
