@@ -215,7 +215,7 @@ const NuestraHistoria = () => {
                 <div className="w-full h-64 rounded-lg overflow-hidden bg-gradient-primary p-1">
                   <div className="w-full h-full rounded-lg bg-background flex items-center justify-center">
                     <img 
-                      src="/lovable-uploads/0aa75494-7ac1-4e5b-aaf6-549cd602880d.png" 
+                      src="/lovable-uploads/866a21e8-1502-4934-b70e-965ea1ca5312.png" 
                       alt="Jennifer y Paola - Fundadoras de Clave & Método trabajando juntas"
                       className="w-full h-full rounded-lg object-cover"
                     />
