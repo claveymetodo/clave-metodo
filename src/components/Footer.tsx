@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-white">Clave y Método</span>
             </div>
             <p className="text-green-100 mb-4 text-sm leading-relaxed">
-              Tu aliado estratégico para crear y hacer crecer empresas exitosas en Costa Rica. Más de 10 años de experiencia respaldan nuestro compromiso.
+              Tu aliado estratégico para crear y hacer crecer empresas exitosas en Costa Rica.
             </p>
             <div className="flex items-center space-x-2 text-green-100">
               <Heart className="h-4 w-4 text-[#d0966e]" />
@@ -29,12 +29,12 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-white">Servicios</h4>
             <ul className="space-y-2 text-green-100 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Registro de Empresas</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Estrategia Empresarial</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Creación de Empresa</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Contabilidad</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Recursos Humanos</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Cumplimiento Legal</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Consultoría Integral</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Gestión del Talento</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Estrategia Empresarial</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Gestión Integral Administrativa</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Acompañamiento Personalizado</a></li>
             </ul>
           </div>
 
@@ -45,7 +45,6 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition-colors">Inicio</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">Nosotros</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contacto</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Términos y Condiciones</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Política de Privacidad</a></li>
             </ul>
@@ -61,13 +60,12 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@claveymetodo.com</span>
+                <span>hola@claveymetodo.com</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5" />
                 <div>
-                  <div>San José, Costa Rica</div>
-                  <div>Zona centro</div>
+                  <div>Cubrimos todo Costa Rica – Llegamos hasta ti</div>
                 </div>
               </div>
             </div>
