@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight, Check, Users, Clock, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -58,15 +58,24 @@ const Hero = () => {
             </div>
 
             {/* Features */}
-            <div className="grid grid-cols-3 gap-8 pt-6">
-              <div className="text-center">
-                <div className="text-lg font-semibold text-foreground">Atención personalizada</div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6">
+              <div className="group text-center p-6 rounded-xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+                <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                  <Users className="w-6 h-6 text-primary-foreground" />
+                </div>
+                <div className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors duration-300">Atención personalizada</div>
               </div>
-              <div className="text-center">
-                <div className="text-lg font-semibold text-foreground">Disponibilidad 24/7</div>
+              <div className="group text-center p-6 rounded-xl bg-gradient-to-br from-secondary/5 to-secondary/10 border border-secondary/20 hover:border-secondary/40 transition-all duration-300 hover:shadow-lg hover:shadow-secondary/10">
+                <div className="w-12 h-12 bg-gradient-to-br from-secondary to-secondary/80 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                  <Clock className="w-6 h-6 text-secondary-foreground" />
+                </div>
+                <div className="text-lg font-semibold text-foreground group-hover:text-secondary transition-colors duration-300">Disponibilidad 24/7</div>
               </div>
-              <div className="text-center">
-                <div className="text-lg font-semibold text-foreground">Soluciones completas</div>
+              <div className="group text-center p-6 rounded-xl bg-gradient-to-br from-accent/5 to-accent/10 border border-accent/20 hover:border-accent/40 transition-all duration-300 hover:shadow-lg hover:shadow-accent/10">
+                <div className="w-12 h-12 bg-gradient-to-br from-accent to-accent/80 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                  <Zap className="w-6 h-6 text-accent-foreground" />
+                </div>
+                <div className="text-lg font-semibold text-foreground group-hover:text-accent transition-colors duration-300">Soluciones completas</div>
               </div>
             </div>
           </div>
