@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center hover:opacity-90 transition-opacity">
           <img 
-            src="/lovable-uploads/4fd63941-7d03-4ffe-aa8d-65d73e69c535.png" 
+            src="/lovable-uploads/f98a6e12-0f20-43b0-b575-b049473f8d56.png" 
             alt="Clave & Método - Estructura, estrategia y acción para tu negocio" 
             className="h-12 w-auto"
           />
