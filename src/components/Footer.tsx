@@ -44,7 +44,7 @@ const Footer = () => {
             <h4 className="font-bold mb-4 text-white">Enlaces Rápidos</h4>
             <ul className="space-y-2 text-green-100 text-sm">
               <li><a href="/#hero" className="hover:text-white transition-colors">Inicio</a></li>
-              <li><Link to="/nuestra-historia" className="hover:text-white transition-colors">Nuestra Historia</Link></li>
+              <li><Link to="/nuestra-historia" className="hover:text-white transition-colors" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Nuestra Historia</Link></li>
               <li><a href="#" className="hover:text-white transition-colors">Términos y Condiciones</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Política de Privacidad</a></li>
             </ul>
