@@ -5,13 +5,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm">
-      <div className="container mx-auto px-6 h-24 flex items-center justify-between">
-        <Link to="/" className="flex items-center hover:opacity-90 transition-opacity">
-          <img 
-            src="/lovable-uploads/b2887d6c-46d7-41f6-a79b-83721267f677.png" 
-            alt="Clave & Método - Estructura, estrategia y acción para tu negocio" 
-            className="h-24 w-auto object-contain"
-          />
+      <div className="container mx-auto px-6 h-20 flex items-center justify-between">
+        <Link to="/" className="font-bold text-2xl text-foreground hover:text-primary transition-colors">
+          Clave & Método
         </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
