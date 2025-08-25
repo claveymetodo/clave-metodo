@@ -282,7 +282,7 @@ const Services = () => {
                           <div>
                             <h5 className="font-medium mb-2">2. Entender tu entorno de operación</h5>
                             <p className="text-sm text-muted-foreground">
-                              Segmentación de mercados y clientes potenciales, competencia, tendencias y demanda y oportunidades para anticipar retos.
+                              Segmentación de mercados y clientes potenciales, competencia, tendencias, demanda y oportunidades para anticipar retos.
                             </p>
                           </div>
                           
