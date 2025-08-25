@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { useTranslation } from "@/contexts/TranslationContext";
 import { 
   Building2, 
   Calculator,
@@ -54,6 +55,7 @@ const services = [
 ];
 
 const Services = () => {
+  const { t } = useTranslation();
   const [openDialog, setOpenDialog] = useState<number | null>(null);
 
   useEffect(() => {
@@ -83,11 +85,10 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            De la idea al éxito
+            {t('services.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Nuestras soluciones te ofrecen todo lo que necesitas para crear y hacer crecer tu empresa en Costa Rica. 
-            Nosotros nos encargamos de los trámites y gestiones, mientras tú te enfocas en hacer que tu negocio prospere.
+            {t('services.subtitle')}
           </p>
         </div>
 
@@ -118,7 +119,7 @@ const Services = () => {
                 <Dialog open={openDialog === 0} onOpenChange={(open) => setOpenDialog(open ? 0 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
-                      Saber Más
+                      {t('services.more')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </DialogTrigger>
@@ -165,7 +166,7 @@ const Services = () => {
                 <Dialog open={openDialog === 1} onOpenChange={(open) => setOpenDialog(open ? 1 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
-                      Saber Más
+                      {t('services.more')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </DialogTrigger>
@@ -219,7 +220,7 @@ const Services = () => {
                 <Dialog open={openDialog === 2} onOpenChange={(open) => setOpenDialog(open ? 2 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
-                      Saber Más
+                      {t('services.more')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </DialogTrigger>
