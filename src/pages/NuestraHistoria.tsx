@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Award, Users, Target, TrendingUp, Linkedin } from "lucide-react";
@@ -7,6 +8,9 @@ import Footer from "@/components/Footer";
 import WhatsAppChat from "@/components/WhatsAppChat";
 
 const NuestraHistoria = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
   return (
     <div className="min-h-screen bg-background">
       <Header />
