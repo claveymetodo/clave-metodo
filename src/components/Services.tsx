@@ -345,28 +345,28 @@ const Services = () => {
                         
                         <div className="space-y-6">
                           <div>
-                            <h5 className="font-medium mb-2">Generación de facturas que cumplan con los requisitos fiscales</h5>
+                            <h5 className="font-medium mb-2">1. Generación de facturas que cumplan con los requisitos fiscales</h5>
                             <p className="text-sm text-muted-foreground">
                               Asegurar que cada factura tenga toda la información legal necesaria: datos de la empresa, cliente, monto, impuestos, productos o servicios para evitar errores que puedan causar sanciones o problemas contables.
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">Generar y monitorear todas las facturas emitidas</h5>
+                            <h5 className="font-medium mb-2">2. Generar y monitorear todas las facturas emitidas</h5>
                             <p className="text-sm text-muted-foreground">
                               Evitar duplicados y controlar que cada factura esté contabilizada para la contabilidad y reportes fiscales.
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">Control de Cuentas por Pagar y por Cobrar</h5>
+                            <h5 className="font-medium mb-2">3. Control de Cuentas por Pagar y por Cobrar</h5>
                             <p className="text-sm text-muted-foreground">
                               Seguimiento a proveedores y servicios, asegurando un flujo de operaciones planificado y constante.
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">Seguimiento de pagos recibidos, pendientes y atrasados</h5>
+                            <h5 className="font-medium mb-2">4. Seguimiento de pagos recibidos, pendientes y atrasados</h5>
                           </div>
                         </div>
                       </div>
