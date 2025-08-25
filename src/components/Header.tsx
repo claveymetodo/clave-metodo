@@ -10,7 +10,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/f98a6e12-0f20-43b0-b575-b049473f8d56.png" 
             alt="Clave & Método - Estructura, estrategia y acción para tu negocio" 
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
         </Link>
         
