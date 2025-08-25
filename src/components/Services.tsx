@@ -311,7 +311,7 @@ const Services = () => {
                             <h5 className="font-medium mb-2">6. Acompañamiento estratégico y desarrollo de nuevos proyectos</h5>
                             <div className="space-y-2">
                               <p className="text-sm text-muted-foreground">
-                                Nuestra consultoría continua para mantener el control operativo, optimizar procesos y desarrollar nuevos proyectos estratégicos.
+                                Nuestra asesoría continua para mantener el control operativo, optimizar procesos y desarrollar nuevos proyectos estratégicos.
                               </p>
                               <p className="text-sm text-muted-foreground">
                                 Tu negocio seguirá creciendo de manera sostenible y adaptándose a nuevas oportunidades del mercado.
