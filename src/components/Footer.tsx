@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Heart, Phone, Mail, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -42,9 +43,8 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-white">Enlaces Rápidos</h4>
             <ul className="space-y-2 text-green-100 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Inicio</a></li>
-              <li><a href="#about" className="hover:text-white transition-colors">Nosotros</a></li>
-              <li><a href="#contact" className="hover:text-white transition-colors">Contacto</a></li>
+              <li><a href="/#hero" className="hover:text-white transition-colors">Inicio</a></li>
+              <li><Link to="/nuestra-historia" className="hover:text-white transition-colors">Nuestra Historia</Link></li>
               <li><a href="#" className="hover:text-white transition-colors">Términos y Condiciones</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Política de Privacidad</a></li>
             </ul>
