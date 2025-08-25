@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
@@ -53,6 +54,30 @@ const services = [
 ];
 
 const Services = () => {
+  const [openDialog, setOpenDialog] = useState<number | null>(null);
+
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const serviceParam = urlParams.get('service');
+    
+    if (serviceParam) {
+      const serviceMap: { [key: string]: number } = {
+        'creacion': 0,
+        'contabilidad': 1,
+        'talento': 2,
+        'estrategia': 3,
+        'gestion': 4,
+        'acompanamiento': 5
+      };
+      
+      const serviceIndex = serviceMap[serviceParam];
+      if (serviceIndex !== undefined) {
+        setTimeout(() => {
+          setOpenDialog(serviceIndex);
+        }, 500);
+      }
+    }
+  }, []);
   return (
     <section id="services" className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
@@ -90,7 +115,7 @@ const Services = () => {
               </ul>
 
               {index === 0 ? (
-                <Dialog>
+                <Dialog open={openDialog === 0} onOpenChange={(open) => setOpenDialog(open ? 0 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
                       Saber Más
@@ -137,7 +162,7 @@ const Services = () => {
                   </DialogContent>
                 </Dialog>
               ) : index === 1 ? (
-                <Dialog>
+                <Dialog open={openDialog === 1} onOpenChange={(open) => setOpenDialog(open ? 1 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
                       Saber Más
@@ -191,7 +216,7 @@ const Services = () => {
                   </DialogContent>
                 </Dialog>
               ) : index === 2 ? (
-                <Dialog>
+                <Dialog open={openDialog === 2} onOpenChange={(open) => setOpenDialog(open ? 2 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
                       Saber Más
@@ -254,7 +279,7 @@ const Services = () => {
                   </DialogContent>
                 </Dialog>
               ) : index === 3 ? (
-                <Dialog>
+                <Dialog open={openDialog === 3} onOpenChange={(open) => setOpenDialog(open ? 3 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
                       Saber Más
@@ -324,7 +349,7 @@ const Services = () => {
                   </DialogContent>
                 </Dialog>
               ) : index === 4 ? (
-                <Dialog>
+                <Dialog open={openDialog === 4} onOpenChange={(open) => setOpenDialog(open ? 4 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
                       Saber Más
@@ -374,7 +399,7 @@ const Services = () => {
                   </DialogContent>
                 </Dialog>
               ) : index === 5 ? (
-                <Dialog>
+                <Dialog open={openDialog === 5} onOpenChange={(open) => setOpenDialog(open ? 5 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
                       Saber Más
