@@ -29,12 +29,12 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-white">Servicios</h4>
             <ul className="space-y-2 text-green-100 text-sm">
-              <li><a href="/#services?service=creacion" className="hover:text-white transition-colors">Creación de Empresa</a></li>
-              <li><a href="/#services?service=contabilidad" className="hover:text-white transition-colors">Contabilidad</a></li>
-              <li><a href="/#services?service=talento" className="hover:text-white transition-colors">Gestión del Talento</a></li>
-              <li><a href="/#services?service=estrategia" className="hover:text-white transition-colors">Estrategia Empresarial</a></li>
-              <li><a href="/#services?service=gestion" className="hover:text-white transition-colors">Gestión Integral Administrativa</a></li>
-              <li><a href="/#services?service=acompanamiento" className="hover:text-white transition-colors">Acompañamiento Personalizado</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">Creación de Empresa</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">Contabilidad</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">Gestión del Talento</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">Estrategia Empresarial</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">Gestión Integral Administrativa</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">Acompañamiento Personalizado</a></li>
             </ul>
           </div>
 
