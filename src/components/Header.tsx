@@ -8,9 +8,9 @@ const Header = () => {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center hover:opacity-90 transition-opacity">
           <img 
-            src="/lovable-uploads/f98a6e12-0f20-43b0-b575-b049473f8d56.png" 
+            src="/lovable-uploads/89500632-8982-4985-9a2d-9715d53d088d.png" 
             alt="Clave & Método - Estructura, estrategia y acción para tu negocio" 
-            className="h-16 w-auto"
+            className="h-20 w-auto object-contain"
           />
         </Link>
         
