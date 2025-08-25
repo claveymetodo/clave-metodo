@@ -3,11 +3,14 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Award, Users, Target, TrendingUp, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "@/contexts/TranslationContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppChat from "@/components/WhatsAppChat";
 
 const NuestraHistoria = () => {
+  const { t } = useTranslation();
+  
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
@@ -21,10 +24,10 @@ const NuestraHistoria = () => {
           <div className="text-center mb-16">
             <Link to="/" className="inline-flex items-center text-muted-foreground hover:text-primary mb-6 transition-colors">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Volver al inicio
+              {t('historia.back')}
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-primary bg-clip-text text-transparent">
-              Nuestra Historia
+              {t('historia.title')}
             </h1>
           </div>
           
@@ -32,32 +35,32 @@ const NuestraHistoria = () => {
             {/* Text Content */}
             <div className="space-y-8">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-                Te la contamos:
+                {t('historia.subtitle')}
               </h2>
               
               <div className="space-y-6 text-muted-foreground">
                 <p className="text-lg">
-                  Nos conocimos en 2020 trabajando juntas: Jennifer como Analista Contable y Paola como Encargada de Bodas y Grupos. Desde el primer día hicimos un excelente equipo, y de ahí nació una linda amistad.
+                  {t('historia.p1')}
                 </p>
                 
                 <p className="text-lg">
-                  Con el paso de los años, Jennifer fue escalando posiciones hasta convertirse en Contadora, mientras que Paola continuó desarrollando su carrera profesional en el área de Turismo.
+                  {t('historia.p2')}
                 </p>
                 
                 <p className="text-lg">
-                  A inicios de 2025, decidimos unir nuestra experiencia y crear nuestra primera empresa desde cero. Nos encargamos de todo el proceso: inscripción, licencias y contabilidad, ayudando a un empresario con una idea espectacular que necesitaba apoyo para desarrollarla.
+                  {t('historia.p3')}
                 </p>
                 
                 <p className="text-lg">
-                  Durante este proceso nos dimos cuenta de que nos apasiona formar parte de nuevas proyecciones, aperturas y hacer realidad los sueños de otros, y así nació Clave & Método.
+                  {t('historia.p4')}
                 </p>
                 
                 <p className="text-lg">
-                  La <strong className="text-primary">clave</strong> del negocio representa la "C" de Codero, el apellido de Jennifer, quien es la raíz financiera del negocio, liderando todo lo relacionado con finanzas y asegurando que cada proyecto cumpla con los requisitos necesarios para prosperar.
+                  {t('historia.p5')}
                 </p>
                 
                 <p className="text-lg">
-                  El <strong className="text-primary">método</strong> representa la "M" de Marín, el apellido de Paola, quien es la raíz estratégica del negocio; enfocándose en los detalles de apertura, gestión y crecimiento empresarial, así como en la planificación de estrategias de venta para impulsar el éxito de cada proyecto.
+                  {t('historia.p6')}
                 </p>
               </div>
             </div>
@@ -94,42 +97,42 @@ const NuestraHistoria = () => {
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold mb-2 text-foreground">Paola Marín Trejos</h3>
-                <p className="text-lg text-primary mb-6">Raíz Estratégica del Negocio | Co-fundadora</p>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">{t('historia.paola.name')}</h3>
+                <p className="text-lg text-primary mb-6">{t('historia.paola.title')}</p>
                 
                 <div className="text-left space-y-4 mb-8">
                   <p className="text-muted-foreground">
-                    Graduada de Bachillerato en Turismo y actualmente cursando la Licenciatura con énfasis en Hoteles & Restaurantes, comencé mi carrera en el área de Recepción y Reservas, y luego avancé al área Comercial como Gerente de Ventas.
+                    {t('historia.paola.p1')}
                   </p>
                   <p className="text-muted-foreground">
-                    Acepté el reto de ser Coordinadora de Bodas y Grupos, sumando un valor extra a mi trayectoria al crear eventos y retiros inolvidables desde cero, lo que se ha convertido en una de mis experiencias favoritas.
+                    {t('historia.paola.p2')}
                   </p>
                   <p className="text-muted-foreground">
-                    También tuve la oportunidad de formarme en Gestión de Talento Humano bajo la mentoría de una excelente profesional, aprendiendo todo sobre recursos humanos, la creación de procesos, la gestión y motivación del talento.
+                    {t('historia.paola.p3')}
                   </p>
                   <p className="text-muted-foreground">
-                    Actualmente lidero la apertura y operación estratégica de una empresa emergente en el área de Turismo, un proyecto que me apasiona y que me permite ser parte de todo el proceso de crecimiento de un negocio.
+                    {t('historia.paola.p4')}
                   </p>
                   <p className="text-muted-foreground">
-                    La experiencia de aprender constantemente y ver cómo un proyecto se materializa y funciona es invaluable.
+                    {t('historia.paola.p5')}
                   </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
                   <div className="text-center">
                     <Award className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">13 Años</div>
-                    <div className="text-xs text-muted-foreground">Experiencia</div>
+                    <div className="text-sm font-semibold">{t('historia.paola.experience')}</div>
+                    <div className="text-xs text-muted-foreground">{t('historia.paola.experience-label')}</div>
                   </div>
                   <div className="text-center">
                     <TrendingUp className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">Revenue & Hospitality</div>
-                    <div className="text-xs text-muted-foreground">Especialidad</div>
+                    <div className="text-sm font-semibold">{t('historia.paola.specialty')}</div>
+                    <div className="text-xs text-muted-foreground">{t('historia.paola.specialty-label')}</div>
                   </div>
                   <div className="text-center">
                     <Target className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">100%</div>
-                    <div className="text-xs text-muted-foreground">Creatividad</div>
+                    <div className="text-sm font-semibold">{t('historia.paola.creativity')}</div>
+                    <div className="text-xs text-muted-foreground">{t('historia.paola.creativity-label')}</div>
                   </div>
                 </div>
                 
@@ -141,7 +144,7 @@ const NuestraHistoria = () => {
                     className="inline-flex items-center px-4 py-2 bg-[#0077B5] hover:bg-[#005885] text-white rounded-lg transition-colors duration-300"
                   >
                     <Linkedin className="h-4 w-4 mr-2" />
-                    Ver perfil de LinkedIn
+                    {t('historia.linkedin')}
                   </a>
                 </div>
               </div>
@@ -160,36 +163,33 @@ const NuestraHistoria = () => {
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold mb-2 text-foreground">Jennifer Cordero Obregón</h3>
-                <p className="text-lg text-primary mb-6">Raíz Financiera del Negocio | Co-fundadora</p>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">{t('historia.jennifer.name')}</h3>
+                <p className="text-lg text-primary mb-6">{t('historia.jennifer.title')}</p>
                 
                 <div className="text-left space-y-4 mb-8">
                   <p className="text-muted-foreground">
-                    Aquí va la introducción de tu socio, su experiencia profesional, 
-                    especialidades y qué aporta al equipo de Clave y Método. 
-                    Destaca su experiencia complementaria y su rol en la empresa.
+                    {t('historia.jennifer.p1')}
                   </p>
                   <p className="text-muted-foreground">
-                    Incluye su formación, certificaciones relevantes, y las áreas 
-                    específicas en las que se especializa dentro de los servicios empresariales.
+                    {t('historia.jennifer.p2')}
                   </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
                   <div className="text-center">
                     <Award className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">X+ Años</div>
-                    <div className="text-xs text-muted-foreground">Experiencia</div>
+                    <div className="text-sm font-semibold">{t('historia.jennifer.experience')}</div>
+                    <div className="text-xs text-muted-foreground">{t('historia.jennifer.experience-label')}</div>
                   </div>
                   <div className="text-center">
                     <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">X+ Clientes</div>
-                    <div className="text-xs text-muted-foreground">Satisfechos</div>
+                    <div className="text-sm font-semibold">{t('historia.jennifer.clients')}</div>
+                    <div className="text-xs text-muted-foreground">{t('historia.jennifer.clients-label')}</div>
                   </div>
                   <div className="text-center">
                     <Target className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="text-sm font-semibold">Expert</div>
-                    <div className="text-xs text-muted-foreground">Certificado</div>
+                    <div className="text-sm font-semibold">{t('historia.jennifer.expert')}</div>
+                    <div className="text-xs text-muted-foreground">{t('historia.jennifer.expert-label')}</div>
                   </div>
                 </div>
                 
@@ -201,7 +201,7 @@ const NuestraHistoria = () => {
                     className="inline-flex items-center px-4 py-2 bg-[#0077B5] hover:bg-[#005885] text-white rounded-lg transition-colors duration-300"
                   >
                     <Linkedin className="h-4 w-4 mr-2" />
-                    Ver perfil de LinkedIn
+                    {t('historia.linkedin')}
                   </a>
                 </div>
               </div>
@@ -212,7 +212,7 @@ const NuestraHistoria = () => {
           <Card className="p-12 glow-card hover:shadow-glow transition-all duration-300 bg-gradient-to-r from-[#414f2f]/10 to-[#d0966e]/10 backdrop-blur-sm border-border/50">
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
-                Juntas Hacemos la Diferencia
+                {t('historia.together.title')}
               </h2>
               
               <div className="max-w-md mx-auto mb-8">
@@ -229,29 +229,25 @@ const NuestraHistoria = () => {
 
               <div className="max-w-4xl mx-auto space-y-6">
                 <p className="text-lg text-muted-foreground">
-                  Nuestra unión nació de una visión compartida: simplificar el proceso de creación y 
-                  crecimiento empresarial en Costa Rica. Combinamos nuestras diferentes especialidades y 
-                  experiencias para ofrecer un servicio integral que realmente marque la diferencia.
+                  {t('historia.together.p1')}
                 </p>
                 
                 <p className="text-lg text-muted-foreground">
-                  Creemos firmemente que cada empresario merece tener acceso a asesoría profesional de calidad, 
-                  sin obstáculos. Por eso, nos dedicamos a ser el puente entre tu visión 
-                  empresarial y su realización exitosa.
+                  {t('historia.together.p2')}
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-8 pt-8">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">100%</div>
-                    <div className="text-sm text-muted-foreground">Enfoque Personalizado</div>
+                    <div className="text-3xl font-bold text-primary mb-2">{t('historia.together.focus')}</div>
+                    <div className="text-sm text-muted-foreground">{t('historia.together.focus-label')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">Pasión</div>
-                    <div className="text-sm text-muted-foreground">por lo que hacemos</div>
+                    <div className="text-3xl font-bold text-primary mb-2">{t('historia.together.passion')}</div>
+                    <div className="text-sm text-muted-foreground">{t('historia.together.passion-label')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">Impulso</div>
-                    <div className="text-sm text-muted-foreground">estratégico</div>
+                    <div className="text-3xl font-bold text-primary mb-2">{t('historia.together.drive')}</div>
+                    <div className="text-sm text-muted-foreground">{t('historia.together.drive-label')}</div>
                   </div>
                 </div>
               </div>
@@ -259,7 +255,7 @@ const NuestraHistoria = () => {
               <div className="mt-12">
                 <Link to="/#about">
                   <Button className="bg-primary hover:bg-[#d0966e] text-primary-foreground px-8 py-3 text-lg transition-colors duration-300">
-                    Hablemos de tu Proyecto
+                    {t('historia.together.cta')}
                   </Button>
                 </Link>
               </div>
