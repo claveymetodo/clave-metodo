@@ -3,7 +3,7 @@ import { ArrowRight, Check, Users, Clock, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-background pt-20">
+    <section id="hero" className="min-h-screen bg-background pt-20">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
           {/* Left Content */}
