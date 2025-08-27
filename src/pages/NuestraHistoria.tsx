@@ -198,7 +198,7 @@ const NuestraHistoria = () => {
                 
                 <div className="mt-6">
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/jennifer-corderoo/"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 bg-[#0077B5] hover:bg-[#005885] text-white rounded-lg transition-colors duration-300"
