@@ -12,7 +12,13 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              {t('hero.title')}
+              {t('hero.title').split('Costa Rica').map((part, index, array) => (
+                index === array.length - 1 ? part : 
+                <>
+                  {part}
+                  <span className="costa-rica-gradient">Costa Rica</span>
+                </>
+              ))}
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
