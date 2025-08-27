@@ -64,14 +64,11 @@ All colors, gradients, fonts, etc defined here. All colors MUST be HSL.
     --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   
-  /* Costa Rica Flag Colors Gradient */
+  /* Costa Rica Colors Gradient */
   .costa-rica-gradient {
     background: linear-gradient(90deg, 
-      #002B7F 0%,    /* Blue */
-      #FFFFFF 25%,   /* White */
-      #CE1126 50%,   /* Red */
-      #FFFFFF 75%,   /* White */
-      #002B7F 100%   /* Blue */
+      #414f2f 0%,    /* Dark green */
+      #d0966e 100%   /* Light brown/orange */
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
