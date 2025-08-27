@@ -41,7 +41,7 @@ const translations = {
     // About
     'about.title': '¿Listo para Comenzar a Construir?',
     'about.subtitle': 'Hablemos de tu Proyecto',
-    'about.description': 'Estamos listos para ayudarte a crear tu empresa. Agenda una consulta gratuita y descubre cómo podemos hacer realidad tu proyecto empresarial.',
+    'about.description': 'Estamos listos para ayudarte a crear tu empresa.',
     'about.consultation': 'Consulta Gratuita',
     'about.consultation-desc': 'Agenda una consulta sin costo y descubre cómo podemos ayudarte a crear tu empresa exitosa.',
     'about.schedule': 'Agendar Consulta',
