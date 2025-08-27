@@ -43,7 +43,7 @@ const translations = {
     'about.subtitle': 'Hablemos de tu Proyecto',
     'about.description': 'Estamos listos para ayudarte a crear tu empresa.',
     'about.consultation': 'Consulta Gratuita',
-    'about.consultation-desc': 'Agenda una consulta sin costo y descubre cómo podemos ayudarte a crear tu empresa exitosa.',
+    'about.consultation-desc': 'Solicita tu consulta sin costo y da el primer paso para convertir tu idea en un proyecto empresarial próspero.',
     'about.schedule': 'Agendar Consulta',
     'about.form-title': 'Envíanos un Mensaje',
     'about.form-desc': 'Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.',
