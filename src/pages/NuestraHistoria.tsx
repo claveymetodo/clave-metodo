@@ -156,7 +156,7 @@ const NuestraHistoria = () => {
                 <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-primary p-1">
                   <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
                     <img 
-                      src="/lovable-uploads/cda22137-d055-4bf6-99b3-abcec91315cf.png" 
+                      src="/lovable-uploads/be22eb56-335d-46dd-ad1c-1c7033c85e5e.png" 
                       alt="Jennifer Cordero Obregón - Co-fundadora de Clave & Método"
                       className="w-44 h-44 rounded-full object-cover"
                     />
