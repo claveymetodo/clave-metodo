@@ -173,6 +173,9 @@ const NuestraHistoria = () => {
                   <p className="text-muted-foreground">
                     {t('historia.jennifer.p2')}
                   </p>
+                  <p className="text-muted-foreground">
+                    {t('historia.jennifer.p3')}
+                  </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
