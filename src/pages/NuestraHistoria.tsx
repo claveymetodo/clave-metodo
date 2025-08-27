@@ -62,6 +62,15 @@ const NuestraHistoria = () => {
                 <p className="text-lg">
                   {t('historia.p6')}
                 </p>
+                
+                <div className="mt-8 pt-6 border-t border-border/30">
+                  <p className="text-lg italic text-primary mb-2">
+                    {t('historia.p7')}
+                  </p>
+                  <p className="text-lg font-semibold text-foreground">
+                    {t('historia.signature')}
+                  </p>
+                </div>
               </div>
             </div>
             
