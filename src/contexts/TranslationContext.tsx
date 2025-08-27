@@ -21,7 +21,7 @@ const translations = {
     
     // Hero
     'hero.title': 'Tu empresa en Costa Rica desde cero',
-    'hero.subtitle': 'Te acompañamos en cada etapa de tu negocio, desde el registro hasta la estrategia de crecimiento. Nos encargamos de todo para que tú puedas enfocarte en lo que realmente sabes hacer.',
+    'hero.subtitle': 'Te acompañamos en cada etapa de tu negocio, desde el registro hasta la estrategia de crecimiento. Hacemos que lo complejo sea sencillo, para que tú avances sin distracciones.',
     'hero.feature1': 'Gestión contable y fiscal integral',
     'hero.feature2': 'Planeación financiera y cumplimiento regulatorio',
     'hero.feature3': 'Constitución y formalización de empresas',
@@ -127,7 +127,7 @@ const translations = {
     
     // Hero
     'hero.title': 'Your company in Costa Rica from Zero',
-    'hero.subtitle': 'We accompany you at every stage of your business, from registration to growth strategy. We take care of everything so you can focus on what you really know how to do.',
+    'hero.subtitle': 'We accompany you at every stage of your business, from registration to growth strategy. We make the complex simple, so you can move forward without distractions.',
     'hero.feature1': 'Comprehensive accounting and tax management',
     'hero.feature2': 'Financial planning and regulatory compliance',
     'hero.feature3': 'Company incorporation and formalization',
