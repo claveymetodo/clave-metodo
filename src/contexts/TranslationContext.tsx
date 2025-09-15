@@ -478,7 +478,7 @@ const translations = {
     'popup.support.daily-title': 'Support during daily use of systems and help in problem solving.',
     
     // Portfolio Section - Why Choose Us
-    'portfolio.title': 'Why Choose Clave y Método',
+    'portfolio.title': 'The Clave y Método Advantage',
     'portfolio.subtitle': 'We are more than advisors, we are your strategic allies. We combine Costa Rican warmth with professional excellence to make your business dreams come true.',
     'portfolio.promise-title': 'Our Promise',
     'portfolio.promise-desc': 'We accompany you from idea to success. We not only create your company, we build lasting relationships based on trust, transparency and exceptional results.',
@@ -487,7 +487,7 @@ const translations = {
     'portfolio.values-title': 'Our Values',
     
     // Values
-    'portfolio.values.personal-warmth': 'Personal Warmth',
+    'portfolio.values.personal-warmth': 'Human Touch',
     'portfolio.values.personal-warmth-desc': 'We treat each client like family, providing personalized attention and a warm environment.',
     'portfolio.values.ethics': 'Ethics and Transparency',
     'portfolio.values.ethics-desc': 'We act with clarity and honesty making fair decisions',
