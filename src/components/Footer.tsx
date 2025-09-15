@@ -33,12 +33,12 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-white">{t('footer.services')}</h4>
             <ul className="space-y-2 text-green-100 text-sm">
-              <li><a href="/#services" className="hover:text-white transition-colors">Creación de Empresa</a></li>
-              <li><a href="/#services" className="hover:text-white transition-colors">Contabilidad</a></li>
-              <li><a href="/#services" className="hover:text-white transition-colors">Gestión del Talento</a></li>
-              <li><a href="/#services" className="hover:text-white transition-colors">Estrategia Empresarial</a></li>
-              <li><a href="/#services" className="hover:text-white transition-colors">Gestión Integral Administrativa</a></li>
-              <li><a href="/#services" className="hover:text-white transition-colors">Acompañamiento Personalizado</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">{t('services.establishment.title')}</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">{t('services.accounting.title')}</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">{t('services.talent.title')}</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">{t('services.strategy.title')}</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">{t('services.admin.title')}</a></li>
+              <li><a href="/#services" className="hover:text-white transition-colors">{t('services.support.title')}</a></li>
             </ul>
           </div>
 
