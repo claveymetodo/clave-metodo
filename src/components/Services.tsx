@@ -382,7 +382,7 @@ const Services = () => {
                 <Dialog open={openDialog === 4} onOpenChange={(open) => setOpenDialog(open ? 4 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
-                      Saber Más
+                      {t('services.more')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </DialogTrigger>
