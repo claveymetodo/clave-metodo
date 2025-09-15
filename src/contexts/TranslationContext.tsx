@@ -194,13 +194,13 @@ const translations = {
     'popup.advisory.desc': 'Lanza tu negocio en Costa Rica de manera rápida y segura. Simplificamos todo el proceso para que tu emprendimiento pueda comenzar a crecer desde el primer día.',
     'popup.advisory.portfolio': 'Nuestro Portafolio de Servicios:',
     
-    // Service Portfolio
-    'portfolio.legal-structure.title': 'Estructura Legal y Asesoría Tributaria',
-    'portfolio.legal-structure.desc': 'Orientación sobre la estructura legal más conveniente, tipo de entidad y análisis tributario para tu negocio.',
-    'portfolio.incorporation.desc': 'Constitución completa de empresas, inscripción en el Registro Mercantil y emisión de cédula jurídica.',
-    'portfolio.tax-registration.desc': 'Proceso de inscripción ante la Administración Tributaria, junto con los permisos y licencias requeridas.',
-    'portfolio.banking.title': 'Operaciones Bancarias y Financieras',
-    'portfolio.banking.desc': 'Apoyo con la apertura de cuentas bancarias corporativas y configuración de métodos de pago, combinado con la implementación de tu sistema contable inicial.',
+     // Service Portfolio
+     'portfolio.legal-structure.title': '1. Estructura Legal y Asesoría Tributaria',
+     'portfolio.legal-structure.desc': 'Orientación sobre la estructura legal más conveniente, tipo de entidad y análisis tributario para tu negocio.',
+     'portfolio.incorporation.desc': 'Constitución completa de empresas, inscripción en el Registro Mercantil y emisión de cédula jurídica.',
+     'portfolio.tax-registration.desc': 'Proceso de inscripción ante la Administración Tributaria, junto con los permisos y licencias requeridas.',
+     'portfolio.banking.title': '2. Operaciones Bancarias y Financieras',
+     'portfolio.banking.desc': 'Apoyo con la apertura de cuentas bancarias corporativas y configuración de métodos de pago, combinado con la implementación de tu sistema contable inicial.',
   },
   en: {
     // Header
@@ -386,11 +386,11 @@ const translations = {
     'popup.advisory.portfolio': 'Our Service Portfolio:',
     
     // Service Portfolio
-    'portfolio.legal-structure.title': 'Legal Structure & Tax Advisory',
+    'portfolio.legal-structure.title': '1. Legal Structure & Tax Advisory',
     'portfolio.legal-structure.desc': 'Guidance on the most suitable legal structure, type of entity, and tax analysis for your business.',
     'portfolio.incorporation.desc': 'Full company incorporation, registration with the Commercial Registry, and issuance of the corporate ID.',
     'portfolio.tax-registration.desc': 'Registration process with the Tax Administration, along with the required permits and licenses.',
-    'portfolio.banking.title': 'Banking & Financial Operations',
+    'portfolio.banking.title': '2. Banking & Financial Operations',
     'portfolio.banking.desc': 'Support with opening corporate bank accounts and setting up payment methods, combined with the implementation of your initial accounting system.',
   }
 };
