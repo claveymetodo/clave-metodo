@@ -116,6 +116,27 @@ const translations = {
     'historia.together.drive': 'Impulso',
     'historia.together.drive-label': 'estratégico',
     'historia.together.cta': 'Hablemos de tu Proyecto',
+    
+    // Services Details
+    'services.establishment.title': 'Constitución de Empresas',
+    'services.establishment.desc': 'Incorporación legal completa, registro mercantil, cédula jurídica y todos los trámites necesarios.',
+    'services.establishment.incorporation': 'Constitución de empresas',
+    'services.establishment.registry': 'Registro mercantil',
+    'services.establishment.corporate-id': 'Cédula jurídica',
+    'services.establishment.legal-books': 'Libros legales',
+    
+    // Popup Advisory
+    'popup.advisory.title': 'Nuestra Asesoría Inicial',
+    'popup.advisory.desc': 'Lanza tu negocio en Costa Rica de manera rápida y segura. Simplificamos todo el proceso para que tu emprendimiento pueda comenzar a crecer desde el primer día.',
+    'popup.advisory.portfolio': 'Nuestro Portafolio de Servicios:',
+    
+    // Service Portfolio
+    'portfolio.legal-structure.title': 'Estructura Legal y Asesoría Tributaria',
+    'portfolio.legal-structure.desc': 'Orientación sobre la estructura legal más conveniente, tipo de entidad y análisis tributario para tu negocio.',
+    'portfolio.incorporation.desc': 'Constitución completa de empresas, inscripción en el Registro Mercantil y emisión de cédula jurídica.',
+    'portfolio.tax-registration.desc': 'Proceso de inscripción ante la Administración Tributaria, junto con los permisos y licencias requeridas.',
+    'portfolio.banking.title': 'Operaciones Bancarias y Financieras',
+    'portfolio.banking.desc': 'Apoyo con la apertura de cuentas bancarias corporativas y configuración de métodos de pago, combinado con la implementación de tu sistema contable inicial.',
   },
   en: {
     // Header
@@ -222,6 +243,27 @@ const translations = {
     'historia.together.drive': 'Strategic',
     'historia.together.drive-label': 'Drive',
     'historia.together.cta': 'Let\'s Talk About Your Project',
+    
+    // Services Details
+    'services.establishment.title': 'Business Establishment',
+    'services.establishment.desc': 'Full legal incorporation, commercial registry, corporate ID, and all necessary procedures.',
+    'services.establishment.incorporation': 'Company incorporation',
+    'services.establishment.registry': 'Commercial registry',
+    'services.establishment.corporate-id': 'Corporate ID',
+    'services.establishment.legal-books': 'Legal books',
+    
+    // Popup Advisory
+    'popup.advisory.title': 'Our Initial Advisory',
+    'popup.advisory.desc': 'Launch your business in Costa Rica quickly and securely. We simplify the entire process so your venture can start growing from day one.',
+    'popup.advisory.portfolio': 'Our Service Portfolio:',
+    
+    // Service Portfolio
+    'portfolio.legal-structure.title': 'Legal Structure & Tax Advisory',
+    'portfolio.legal-structure.desc': 'Guidance on the most suitable legal structure, type of entity, and tax analysis for your business.',
+    'portfolio.incorporation.desc': 'Full company incorporation, registration with the Commercial Registry, and issuance of the corporate ID.',
+    'portfolio.tax-registration.desc': 'Registration process with the Tax Administration, along with the required permits and licenses.',
+    'portfolio.banking.title': 'Banking & Financial Operations',
+    'portfolio.banking.desc': 'Support with opening corporate bank accounts and setting up payment methods, combined with the implementation of your initial accounting system.',
   }
 };
 
