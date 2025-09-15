@@ -125,6 +125,44 @@ const translations = {
     'services.establishment.corporate-id': 'Cédula jurídica',
     'services.establishment.legal-books': 'Libros legales',
     
+    // Accounting Service
+    'services.accounting.title': 'Contabilidad',
+    'services.accounting.desc': 'Llevamos la contabilidad completa de tu empresa con reportes mensuales y declaraciones.',
+    'services.accounting.monthly': 'Contabilidad mensual',
+    'services.accounting.tax-declarations': 'Declaraciones fiscales',
+    'services.accounting.financial-statements': 'Estados financieros',
+    'services.accounting.management-reports': 'Reportes gerenciales',
+    
+    // Talent Management Service  
+    'services.talent.title': 'Gestión del Talento',
+    'services.talent.desc': 'Gestión completa de personal, planillas y cumplimiento laboral.',
+    'services.talent.recruitment': 'Reclutamiento y Selección de Personal',
+    'services.talent.payroll': 'Administración de planilla',
+    'services.talent.labor-management': 'Gestión Laboral',
+    
+    // Business Strategy Service
+    'services.strategy.title': 'Estrategia Empresarial',
+    'services.strategy.desc': 'Desarrollamos planes de negocio personalizados y estrategias de crecimiento para tu empresa.',
+    'services.strategy.business-plan': 'Plan de negocio',
+    'services.strategy.market-analysis': 'Análisis de mercado',
+    'services.strategy.marketing-strategy': 'Estrategia de marketing',
+    'services.strategy.financial-projections': 'Proyecciones financieras',
+    
+    // Administrative Management Service
+    'services.admin.title': 'Gestión Integral Administrativa',
+    'services.admin.desc': 'Mantenemos tus finanzas organizadas y bajo control, asegurando que todas tus facturas y cuentas estén al día.',
+    'services.admin.electronic-billing': 'Facturación electrónica',
+    'services.admin.accounts': 'Cuentas por pagar y cobrar',
+    'services.admin.payment-tracking': 'Seguimiento a pagos',
+    'services.admin.audit': 'Auditoría',
+    
+    // Personalized Support Service
+    'services.support.title': 'Acompañamiento Personalizado',
+    'services.support.desc': 'Impulso al crecimiento y desarrollo de tu negocio.',
+    'services.support.digital-systems': 'Implementación de sistemas contables digitales',
+    'services.support.system-migration': 'Migración a Sistemas especializados',
+    'services.support.continuous': 'Soporte continuo',
+    
     // Popup Advisory
     'popup.advisory.title': 'Nuestra Asesoría Inicial',
     'popup.advisory.desc': 'Lanza tu negocio en Costa Rica de manera rápida y segura. Simplificamos todo el proceso para que tu emprendimiento pueda comenzar a crecer desde el primer día.',
@@ -251,6 +289,44 @@ const translations = {
     'services.establishment.registry': 'Commercial registry',
     'services.establishment.corporate-id': 'Corporate ID',
     'services.establishment.legal-books': 'Legal books',
+    
+    // Accounting Service
+    'services.accounting.title': 'Accounting',
+    'services.accounting.desc': 'We handle your company\'s complete accounting with monthly reports and declarations.',
+    'services.accounting.monthly': 'Monthly accounting',
+    'services.accounting.tax-declarations': 'Tax declarations',
+    'services.accounting.financial-statements': 'Financial statements',
+    'services.accounting.management-reports': 'Management reports',
+    
+    // Talent Management Service  
+    'services.talent.title': 'Talent Management',
+    'services.talent.desc': 'Complete personnel management, payroll and labor compliance.',
+    'services.talent.recruitment': 'Personnel Recruitment and Selection',
+    'services.talent.payroll': 'Payroll administration',
+    'services.talent.labor-management': 'Labor Management',
+    
+    // Business Strategy Service
+    'services.strategy.title': 'Business Strategy',
+    'services.strategy.desc': 'We develop personalized business plans and growth strategies for your company.',
+    'services.strategy.business-plan': 'Business plan',
+    'services.strategy.market-analysis': 'Market analysis',
+    'services.strategy.marketing-strategy': 'Marketing strategy',
+    'services.strategy.financial-projections': 'Financial projections',
+    
+    // Administrative Management Service
+    'services.admin.title': 'Comprehensive Administrative Management',
+    'services.admin.desc': 'We keep your finances organized and under control, ensuring all your invoices and accounts are up to date.',
+    'services.admin.electronic-billing': 'Electronic billing',
+    'services.admin.accounts': 'Accounts payable and receivable',
+    'services.admin.payment-tracking': 'Payment tracking',
+    'services.admin.audit': 'Audit',
+    
+    // Personalized Support Service
+    'services.support.title': 'Personalized Support',
+    'services.support.desc': 'Boost the growth and development of your business.',
+    'services.support.digital-systems': 'Implementation of digital accounting systems',
+    'services.support.system-migration': 'Migration to specialized systems',
+    'services.support.continuous': 'Continuous support',
     
     // Popup Advisory
     'popup.advisory.title': 'Our Initial Advisory',

@@ -15,47 +15,76 @@ import {
   FileText
 } from "lucide-react";
 
-const services = [
+const Services = () => {
+  const { t } = useTranslation();
+  
+  const services = [
   {
     icon: Building2,
-    title: "Creación de Empresa",
-    description: "Constitución legal completa, registro mercantil, cédula jurídica y todos los trámites necesarios.",
-    features: ["Constitución de sociedad", "Registro mercantil", "Cédula jurídica", "Libros legales"]
+    title: t('services.establishment.title'),
+    description: t('services.establishment.desc'),
+    features: [
+      t('services.establishment.incorporation'), 
+      t('services.establishment.registry'), 
+      t('services.establishment.corporate-id'), 
+      t('services.establishment.legal-books')
+    ]
   },
   {
     icon: Calculator,
-    title: "Contabilidad",
-    description: "Llevamos la contabilidad completa de tu empresa con reportes mensuales y declaraciones.",
-    features: ["Contabilidad mensual", "Declaraciones fiscales", "Estados financieros", "Reportes gerenciales"]
+    title: t('services.accounting.title'),
+    description: t('services.accounting.desc'),
+    features: [
+      t('services.accounting.monthly'), 
+      t('services.accounting.tax-declarations'), 
+      t('services.accounting.financial-statements'), 
+      t('services.accounting.management-reports')
+    ]
   },
   {
     icon: Users,
-    title: "Gestión del Talento",
-    description: "Gestión completa de personal, planillas y cumplimiento laboral.",
-    features: ["Reclutamiento y Selección de Personal", "Administración de planilla", "Gestión Laboral"]
+    title: t('services.talent.title'),
+    description: t('services.talent.desc'),
+    features: [
+      t('services.talent.recruitment'), 
+      t('services.talent.payroll'), 
+      t('services.talent.labor-management')
+    ]
   },
   {
     icon: Target,
-    title: "Estrategia Empresarial",
-    description: "Desarrollamos planes de negocio personalizados y estrategias de crecimiento para tu empresa.",
-    features: ["Plan de negocio", "Análisis de mercado", "Estrategia de marketing", "Proyecciones financieras"]
+    title: t('services.strategy.title'),
+    description: t('services.strategy.desc'),
+    features: [
+      t('services.strategy.business-plan'), 
+      t('services.strategy.market-analysis'), 
+      t('services.strategy.marketing-strategy'), 
+      t('services.strategy.financial-projections')
+    ]
   },
   {
     icon: FileText,
-    title: "Gestión Integral Administrativa",
-    description: "Mantenemos tus finanzas organizadas y bajo control, asegurando que todas tus facturas y cuentas estén al día.",
-    features: ["Facturación electrónica", "Cuentas por pagar y cobrar", "Seguimiento a pagos", "Auditoría"]
+    title: t('services.admin.title'),
+    description: t('services.admin.desc'),
+    features: [
+      t('services.admin.electronic-billing'), 
+      t('services.admin.accounts'), 
+      t('services.admin.payment-tracking'), 
+      t('services.admin.audit')
+    ]
   },
   {
     icon: TrendingUp,
-    title: "Acompañamiento Personalizado",
-    description: "Impulso al crecimiento y desarrollo de tu negocio.",
-    features: ["Implementación de sistemas contables digitales", "Migración a Sistemas especializados", "Soporte continuo"]
+    title: t('services.support.title'),
+    description: t('services.support.desc'),
+    features: [
+      t('services.support.digital-systems'), 
+      t('services.support.system-migration'), 
+      t('services.support.continuous')
+    ]
   }
 ];
 
-const Services = () => {
-  const { t } = useTranslation();
   const [openDialog, setOpenDialog] = useState<number | null>(null);
 
   useEffect(() => {
@@ -126,34 +155,36 @@ const Services = () => {
                   <DialogContent className="max-w-2xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestra Asesoría Inicial</h3>
+                        <h3 className="text-2xl font-bold mb-2">{t('popup.advisory.title')}</h3>
                         <p className="text-muted-foreground mb-6">
-                          Lanza tu empresa en Costa Rica de manera rápida y segura.
-                          Simplificamos todo el proceso para que tu emprendimiento comience a crecer desde el primer día.
+                          {t('popup.advisory.desc')}
                         </p>
                       </div>
                       
                       <div>
-                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        <h4 className="text-lg font-semibold mb-4">{t('popup.advisory.portfolio')}</h4>
                         
                         <div className="space-y-4">
                           <div>
-                            <h5 className="font-medium mb-2">1. Definición de estructura legal, tipo de sociedad y análisis tributario según tu negocio</h5>
+                            <h5 className="font-medium mb-2">{t('portfolio.legal-structure.title')}</h5>
                             <div className="space-y-2">
                               <p className="text-sm text-muted-foreground">
-                                Constitución legal, inscripción en el Registro Mercantil y obtención de cédula jurídica.
+                                {t('portfolio.legal-structure.desc')}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                Proceso de registro ante la Dirección General de Tributación, permisos y licencias necesarias.
+                                {t('portfolio.incorporation.desc')}
+                              </p>
+                              <p className="text-sm text-muted-foreground">
+                                {t('portfolio.tax-registration.desc')}
                               </p>
                             </div>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">2. Apertura de Cuentas Bancarias y Operaciones Financieras</h5>
+                            <h5 className="font-medium mb-2">{t('portfolio.banking.title')}</h5>
                             <div className="space-y-2">
                               <p className="text-sm text-muted-foreground">
-                                Apoyo en la apertura de cuentas corporativas y configuración de métodos de pago de la mano con la implementación del sistema de contabilidad inicial.
+                                {t('portfolio.banking.desc')}
                               </p>
                             </div>
                           </div>
