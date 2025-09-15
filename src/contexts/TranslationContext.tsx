@@ -225,6 +225,31 @@ const translations = {
     'popup.support.systems-desc': 'Planificación y ejecución de migración de datos y verificación del funcionamiento correcto.',
     'popup.support.daily-title': 'Acompañamiento durante el uso diario de los sistemas y ayuda en la resolución de problemas.',
     
+    // Portfolio Section - Why Choose Us
+    'portfolio.title': 'Por qué elegir Clave y Método',
+    'portfolio.subtitle': 'Somos más que asesores, somos tus aliados estratégicos. Combinamos la calidez costarricense con la excelencia profesional para hacer realidad tus sueños empresariales.',
+    'portfolio.promise-title': 'Nuestra Promesa',
+    'portfolio.promise-desc': 'Te acompañamos desde la idea hasta el éxito. No solo creamos tu empresa, construimos relaciones duraderas basadas en confianza, transparencia y resultados excepcionales.',
+    'portfolio.commitment-title': 'Compromiso con Costa Rica',
+    'portfolio.commitment-desc': 'Conocemos a fondo el ecosistema empresarial costarricense. Nuestro objetivo es fortalecer la economía local apoyando a emprendedores, tanto nacionales como extranjeros, a materializar sus proyectos y hacer crecer sus negocios en el país.',
+    'portfolio.values-title': 'Nuestros Valores',
+    
+    // Values
+    'portfolio.values.personal-warmth': 'Calidez Personal',
+    'portfolio.values.personal-warmth-desc': 'Tratamos a cada cliente como familia, brindando atención personalizada y un ambiente cálido.',
+    'portfolio.values.ethics': 'Ética y Transparencia',
+    'portfolio.values.ethics-desc': 'Actuamos con claridad y honestidad tomando decisiones justas',
+    'portfolio.values.innovation': 'Innovación',
+    'portfolio.values.innovation-desc': 'Ofrecemos ideas creativas y adaptadas a cada cliente',
+    
+    // Stats
+    'portfolio.stats.focus': '100%',
+    'portfolio.stats.focus-label': 'Enfoque Personalizado',
+    'portfolio.stats.passion': 'Pasión',
+    'portfolio.stats.passion-label': 'por lo que hacemos',
+    'portfolio.stats.drive': 'Impulso',
+    'portfolio.stats.drive-label': 'estratégico',
+    
     // Popup Advisory
     'popup.advisory.title': 'Nuestra Asesoría Inicial',
     'popup.advisory.desc': 'Lanza tu negocio en Costa Rica de manera rápida y segura. Simplificamos todo el proceso para que tu emprendimiento pueda comenzar a crecer desde el primer día.',
@@ -451,6 +476,31 @@ const translations = {
     'popup.support.systems-title': 'Advisory on the incorporation of new systems or digital platforms',
     'popup.support.systems-desc': 'Planning and execution of data migration and verification of correct operation.',
     'popup.support.daily-title': 'Support during daily use of systems and help in problem solving.',
+    
+    // Portfolio Section - Why Choose Us
+    'portfolio.title': 'Why Choose Clave y Método',
+    'portfolio.subtitle': 'We are more than advisors, we are your strategic allies. We combine Costa Rican warmth with professional excellence to make your business dreams come true.',
+    'portfolio.promise-title': 'Our Promise',
+    'portfolio.promise-desc': 'We accompany you from idea to success. We not only create your company, we build lasting relationships based on trust, transparency and exceptional results.',
+    'portfolio.commitment-title': 'Commitment to Costa Rica',
+    'portfolio.commitment-desc': 'We know the Costa Rican business ecosystem thoroughly. Our goal is to strengthen the local economy by supporting entrepreneurs, both national and foreign, to materialize their projects and grow their businesses in the country.',
+    'portfolio.values-title': 'Our Values',
+    
+    // Values
+    'portfolio.values.personal-warmth': 'Personal Warmth',
+    'portfolio.values.personal-warmth-desc': 'We treat each client like family, providing personalized attention and a warm environment.',
+    'portfolio.values.ethics': 'Ethics and Transparency',
+    'portfolio.values.ethics-desc': 'We act with clarity and honesty making fair decisions',
+    'portfolio.values.innovation': 'Innovation',
+    'portfolio.values.innovation-desc': 'We offer creative ideas adapted to each client',
+    
+    // Stats
+    'portfolio.stats.focus': '100%',
+    'portfolio.stats.focus-label': 'Personalized Approach',
+    'portfolio.stats.passion': 'Passion',
+    'portfolio.stats.passion-label': 'for what we do',
+    'portfolio.stats.drive': 'Strategic',
+    'portfolio.stats.drive-label': 'Drive',
     
     // Popup Advisory
     'popup.advisory.title': 'Our Initial Advisory',

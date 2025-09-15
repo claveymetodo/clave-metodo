@@ -1,31 +1,34 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Shield, Lightbulb } from "lucide-react";
-
-const values = [
-  {
-    icon: Heart,
-    title: "Calidez Personal",
-    description: "Tratamos a cada cliente como familia, brindando atención personalizada y un ambiente cálido."
-  },
-  {
-    icon: Shield,
-    title: "Ética y Transparencia", 
-    description: "Actuamos con claridad y honestidad tomando decisiones justas"
-  },
-  {
-    icon: Lightbulb,
-    title: "Innovación",
-    description: "Ofrecemos ideas creativas y adaptadas a cada cliente"
-  }
-];
-
-const stats = [
-  { number: "100%", label: "Enfoque Personalizado" },
-  { number: "Pasión", label: "por lo que hacemos" },
-  { number: "Impulso", label: "estratégico" }
-];
+import { useTranslation } from "@/contexts/TranslationContext";
 
 const Portfolio = () => {
+  const { t } = useTranslation();
+  
+  const values = [
+    {
+      icon: Heart,
+      title: t('portfolio.values.personal-warmth'),
+      description: t('portfolio.values.personal-warmth-desc')
+    },
+    {
+      icon: Shield,
+      title: t('portfolio.values.ethics'), 
+      description: t('portfolio.values.ethics-desc')
+    },
+    {
+      icon: Lightbulb,
+      title: t('portfolio.values.innovation'),
+      description: t('portfolio.values.innovation-desc')
+    }
+  ];
+
+  const stats = [
+    { number: t('portfolio.stats.focus'), label: t('portfolio.stats.focus-label') },
+    { number: t('portfolio.stats.passion'), label: t('portfolio.stats.passion-label') },
+    { number: t('portfolio.stats.drive'), label: t('portfolio.stats.drive-label') }
+  ];
+
   return (
     <section id="portfolio" className="py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
@@ -33,20 +36,17 @@ const Portfolio = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              Por qué elegir Clave y Método
+              {t('portfolio.title')}
             </h2>
             
             <p className="text-xl text-muted-foreground mb-8">
-              Somos más que asesores, somos tus aliados estratégicos. 
-              Combinamos la calidez costarricense con la excelencia profesional para 
-              hacer realidad tus sueños empresariales.
+              {t('portfolio.subtitle')}
             </p>
 
             <div className="mb-8">
-              <h3 className="text-2xl font-bold mb-4">Nuestra Promesa</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('portfolio.promise-title')}</h3>
               <p className="text-muted-foreground">
-                Te acompañamos desde la idea hasta el éxito. No solo creamos tu empresa, construimos 
-                relaciones duraderas basadas en confianza, transparencia y resultados excepcionales.
+                {t('portfolio.promise-desc')}
               </p>
             </div>
 
@@ -55,9 +55,9 @@ const Portfolio = () => {
                 <Heart className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Compromiso con Costa Rica</h4>
+                <h4 className="font-semibold mb-2">{t('portfolio.commitment-title')}</h4>
                 <p className="text-muted-foreground text-sm">
-                  Conocemos a fondo el ecosistema empresarial costarricense. Nuestro objetivo es fortalecer la economía local apoyando a emprendedores, tanto nacionales como extranjeros, a materializar sus proyectos y hacer crecer sus negocios en el país.
+                  {t('portfolio.commitment-desc')}
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Portfolio = () => {
 
           {/* Right Content - Values */}
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-center">Nuestros Valores</h3>
+            <h3 className="text-2xl font-bold mb-8 text-center">{t('portfolio.values-title')}</h3>
             
             <div className="space-y-6 mb-12">
               {values.map((value, index) => (
