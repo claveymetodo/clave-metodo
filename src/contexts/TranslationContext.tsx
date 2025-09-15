@@ -189,6 +189,42 @@ const translations = {
     'popup.talent.payroll-desc2': 'Declaración salarial para CCSS e INS.',
     'popup.talent.payroll-desc3': 'Desarrollo de Actuariales empresariales.',
     
+    // Popup Content - Business Strategy  
+    'popup.strategy.title': 'Nuestra Dirección de Crecimiento Empresarial',
+    'popup.strategy.desc': 'Desarrollamos un plan integral para guiar el crecimiento de tu empresa. Desde el análisis del mercado hasta la planificación financiera, te ayudamos a definir objetivos claros, tomar decisiones estratégicas y maximizar tus oportunidades de éxito.',
+    'popup.strategy.structural-title': 'Primeros pasos de crecimiento estructural',
+    'popup.strategy.structural-desc': 'Creación de guía estratégica con la visión general del negocio, servicios, propuesta de valor, ventaja competitiva y estructura organizacional que darán claridad y dirección a tu nuevo negocio.',
+    'popup.strategy.environment-title': 'Entender tu entorno de operación',
+    'popup.strategy.environment-desc': 'Segmentación de mercados y clientes potenciales, competencia, tendencias, demanda y oportunidades para anticipar retos.',
+    'popup.strategy.customers-title': 'Plan personalizado para atraer y fidelizar clientes',
+    'popup.strategy.customers-desc': 'Público objetivo, canales de promoción, precios y distribución así como la medición de resultados que nos permitirá ajustar el enfoque del negocio.',
+    'popup.strategy.budgets-title': 'Elaboración de presupuestos como herramienta clave en la planificación estratégica',
+    'popup.strategy.budgets-desc': 'Proyección de ingresos y gastos identificando la rentabilidad y capacidad de crecimiento continuo dando énfasis en donde debemos colocar nuestros esfuerzos, inversiones y recursos para lograr los objetivos.',
+    'popup.strategy.adjustments-title': 'Ajustes planificados según la adaptabilidad de los cambios',
+    'popup.strategy.adjustments-desc': 'Permite al negocio ser flexible y resiliente, maximizando oportunidades y minimizando riesgos financieros.',
+    'popup.strategy.support-title': 'Acompañamiento estratégico y desarrollo de nuevos proyectos',
+    'popup.strategy.support-desc1': 'Nuestra asesoría continua para mantener el control operativo, optimizar procesos y desarrollar nuevos proyectos estratégicos.',
+    'popup.strategy.support-desc2': 'Tu negocio seguirá creciendo de manera sostenible y adaptándose a nuevas oportunidades del mercado.',
+    
+    // Popup Content - Administrative Management
+    'popup.admin.title': 'Nuestra Gestión Administrativa',
+    'popup.admin.desc': 'Ofrecemos la configuración de tu sistema de facturación electrónica, emisión y control de facturas, complementado con reportes periódicos para mantener tus finanzas claras y organizadas.',
+    'popup.admin.billing-title': 'Generación de facturas que cumplan con los requisitos fiscales',
+    'popup.admin.billing-desc': 'Asegurar que cada factura tenga toda la información legal necesaria: datos de la empresa, cliente, monto, impuestos, productos o servicios para evitar errores que puedan causar sanciones o problemas contables.',
+    'popup.admin.monitoring-title': 'Generar y monitorear todas las facturas emitidas',
+    'popup.admin.monitoring-desc': 'Evitar duplicados y controlar que cada factura esté contabilizada para la contabilidad y reportes fiscales.',
+    'popup.admin.accounts-title': 'Control de Cuentas por Pagar y por Cobrar',
+    'popup.admin.accounts-desc': 'Seguimiento a proveedores y servicios, asegurando un flujo de operaciones planificado y constante.',
+    'popup.admin.payments-title': 'Seguimiento de pagos recibidos, pendientes y atrasados',
+    
+    // Popup Content - Personalized Support
+    'popup.support.title': 'Nuestro Acompañamiento Adaptado',
+    'popup.support.software-title': 'Configuración inicial del software contable según las necesidades de la empresa',
+    'popup.support.software-desc': 'Capacitación, ajustes y personalización del equipo para el uso correcto de plataformas.',
+    'popup.support.systems-title': 'Asesoría en la incorporación de nuevos sistemas o plataformas digitales',
+    'popup.support.systems-desc': 'Planificación y ejecución de migración de datos y verificación del funcionamiento correcto.',
+    'popup.support.daily-title': 'Acompañamiento durante el uso diario de los sistemas y ayuda en la resolución de problemas.',
+    
     // Popup Advisory
     'popup.advisory.title': 'Nuestra Asesoría Inicial',
     'popup.advisory.desc': 'Lanza tu negocio en Costa Rica de manera rápida y segura. Simplificamos todo el proceso para que tu emprendimiento pueda comenzar a crecer desde el primer día.',
@@ -379,6 +415,42 @@ const translations = {
     'popup.talent.payroll-desc1': 'Calculation of salaries, deductions and benefits.',
     'popup.talent.payroll-desc2': 'Salary declaration for CCSS and INS.',
     'popup.talent.payroll-desc3': 'Development of business actuarial reports.',
+    
+    // Popup Content - Business Strategy  
+    'popup.strategy.title': 'Our Business Growth Direction',
+    'popup.strategy.desc': 'We develop a comprehensive plan to guide your company growth. From market analysis to financial planning, we help you define clear objectives, make strategic decisions and maximize your success opportunities.',
+    'popup.strategy.structural-title': 'First steps of structural growth',
+    'popup.strategy.structural-desc': 'Creation of strategic guide with business overview, services, value proposition, competitive advantage and organizational structure that will give clarity and direction to your new business.',
+    'popup.strategy.environment-title': 'Understanding your operating environment',
+    'popup.strategy.environment-desc': 'Market segmentation and potential customers, competition, trends, demand and opportunities to anticipate challenges.',
+    'popup.strategy.customers-title': 'Personalized plan to attract and retain customers',
+    'popup.strategy.customers-desc': 'Target audience, promotion channels, prices and distribution as well as results measurement that will allow us to adjust the business approach.',
+    'popup.strategy.budgets-title': 'Budget development as a key tool in strategic planning',
+    'popup.strategy.budgets-desc': 'Income and expense projection identifying profitability and continuous growth capacity emphasizing where we should place our efforts, investments and resources to achieve objectives.',
+    'popup.strategy.adjustments-title': 'Planned adjustments according to adaptability to changes',
+    'popup.strategy.adjustments-desc': 'Allows the business to be flexible and resilient, maximizing opportunities and minimizing financial risks.',
+    'popup.strategy.support-title': 'Strategic support and development of new projects',
+    'popup.strategy.support-desc1': 'Our continuous advisory to maintain operational control, optimize processes and develop new strategic projects.',
+    'popup.strategy.support-desc2': 'Your business will continue growing sustainably and adapting to new market opportunities.',
+    
+    // Popup Content - Administrative Management
+    'popup.admin.title': 'Our Administrative Management',
+    'popup.admin.desc': 'We offer the configuration of your electronic billing system, issuance and control of invoices, complemented with periodic reports to keep your finances clear and organized.',
+    'popup.admin.billing-title': 'Generation of invoices that comply with tax requirements',
+    'popup.admin.billing-desc': 'Ensure that each invoice has all the necessary legal information: company data, client, amount, taxes, products or services to avoid errors that may cause sanctions or accounting problems.',
+    'popup.admin.monitoring-title': 'Generate and monitor all issued invoices',
+    'popup.admin.monitoring-desc': 'Avoid duplicates and control that each invoice is accounted for accounting and tax reports.',
+    'popup.admin.accounts-title': 'Control of Accounts Payable and Receivable',
+    'popup.admin.accounts-desc': 'Follow-up with suppliers and services, ensuring a planned and constant flow of operations.',
+    'popup.admin.payments-title': 'Tracking of received, pending and overdue payments',
+    
+    // Popup Content - Personalized Support
+    'popup.support.title': 'Our Adapted Support',
+    'popup.support.software-title': 'Initial configuration of accounting software according to company needs',
+    'popup.support.software-desc': 'Training, adjustments and team customization for correct use of platforms.',
+    'popup.support.systems-title': 'Advisory on the incorporation of new systems or digital platforms',
+    'popup.support.systems-desc': 'Planning and execution of data migration and verification of correct operation.',
+    'popup.support.daily-title': 'Support during daily use of systems and help in problem solving.',
     
     // Popup Advisory
     'popup.advisory.title': 'Our Initial Advisory',

@@ -319,57 +319,57 @@ const Services = () => {
                   <DialogContent className="max-w-3xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestra Dirección de Crecimiento Empresarial</h3>
+                        <h3 className="text-2xl font-bold mb-2">{t('popup.strategy.title')}</h3>
                         <p className="text-muted-foreground mb-6">
-                          Desarrollamos un plan integral para guiar el crecimiento de tu empresa. Desde el análisis del mercado hasta la planificación financiera, te ayudamos a definir objetivos claros, tomar decisiones estratégicas y maximizar tus oportunidades de éxito.
+                          {t('popup.strategy.desc')}
                         </p>
                       </div>
                       
                       <div>
                         <div className="space-y-6">
                           <div>
-                            <h5 className="font-medium mb-2">1. Primeros pasos de crecimiento estructural</h5>
+                            <h5 className="font-medium mb-2">1. {t('popup.strategy.structural-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Creación de guía estratégica con la visión general del negocio, servicios, propuesta de valor, ventaja competitiva y estructura organizacional que darán claridad y dirección a tu nuevo negocio.
+                              {t('popup.strategy.structural-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">2. Entender tu entorno de operación</h5>
+                            <h5 className="font-medium mb-2">2. {t('popup.strategy.environment-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Segmentación de mercados y clientes potenciales, competencia, tendencias, demanda y oportunidades para anticipar retos.
+                              {t('popup.strategy.environment-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">3. Plan personalizado para atraer y fidelizar clientes</h5>
+                            <h5 className="font-medium mb-2">3. {t('popup.strategy.customers-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Público objetivo, canales de promoción, precios y distribución así como la medición de resultados que nos permitirá ajustar el enfoque del negocio.
+                              {t('popup.strategy.customers-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">4. Elaboración de presupuestos como herramienta clave en la planificación estratégica</h5>
+                            <h5 className="font-medium mb-2">4. {t('popup.strategy.budgets-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Proyección de ingresos y gastos identificando la rentabilidad y capacidad de crecimiento continuo dando énfasis en donde debemos colocar nuestros esfuerzos, inversiones y recursos para lograr los objetivos.
+                              {t('popup.strategy.budgets-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">5. Ajustes planificados según la adaptabilidad de los cambios</h5>
+                            <h5 className="font-medium mb-2">5. {t('popup.strategy.adjustments-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Permite al negocio ser flexible y resiliente, maximizando oportunidades y minimizando riesgos financieros.
+                              {t('popup.strategy.adjustments-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">6. Acompañamiento estratégico y desarrollo de nuevos proyectos</h5>
+                            <h5 className="font-medium mb-2">6. {t('popup.strategy.support-title')}</h5>
                             <div className="space-y-2">
                               <p className="text-sm text-muted-foreground">
-                                Nuestra asesoría continua para mantener el control operativo, optimizar procesos y desarrollar nuevos proyectos estratégicos.
+                                {t('popup.strategy.support-desc1')}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                Tu negocio seguirá creciendo de manera sostenible y adaptándose a nuevas oportunidades del mercado.
+                                {t('popup.strategy.support-desc2')}
                               </p>
                             </div>
                           </div>
@@ -389,39 +389,39 @@ const Services = () => {
                   <DialogContent className="max-w-2xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestra Gestión Administrativa</h3>
+                        <h3 className="text-2xl font-bold mb-2">{t('popup.admin.title')}</h3>
                         <p className="text-muted-foreground mb-6">
-                          Ofrecemos la configuración de tu sistema de facturación electrónica, emisión y control de facturas, complementado con reportes periódicos para mantener tus finanzas claras y organizadas.
+                          {t('popup.admin.desc')}
                         </p>
                       </div>
                       
                       <div>
-                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        <h4 className="text-lg font-semibold mb-4">{t('popup.advisory.portfolio')}</h4>
                         
                         <div className="space-y-6">
                           <div>
-                            <h5 className="font-medium mb-2">1. Generación de facturas que cumplan con los requisitos fiscales</h5>
+                            <h5 className="font-medium mb-2">1. {t('popup.admin.billing-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Asegurar que cada factura tenga toda la información legal necesaria: datos de la empresa, cliente, monto, impuestos, productos o servicios para evitar errores que puedan causar sanciones o problemas contables.
+                              {t('popup.admin.billing-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">2. Generar y monitorear todas las facturas emitidas</h5>
+                            <h5 className="font-medium mb-2">2. {t('popup.admin.monitoring-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Evitar duplicados y controlar que cada factura esté contabilizada para la contabilidad y reportes fiscales.
+                              {t('popup.admin.monitoring-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">3. Control de Cuentas por Pagar y por Cobrar</h5>
+                            <h5 className="font-medium mb-2">3. {t('popup.admin.accounts-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Seguimiento a proveedores y servicios, asegurando un flujo de operaciones planificado y constante.
+                              {t('popup.admin.accounts-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">4. Seguimiento de pagos recibidos, pendientes y atrasados</h5>
+                            <h5 className="font-medium mb-2">4. {t('popup.admin.payments-title')}</h5>
                           </div>
                         </div>
                       </div>
@@ -432,34 +432,34 @@ const Services = () => {
                 <Dialog open={openDialog === 5} onOpenChange={(open) => setOpenDialog(open ? 5 : null)}>
                   <DialogTrigger asChild>
                     <Button variant="ghost" className="w-full group">
-                      Saber Más
+                      {t('services.more')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </DialogTrigger>
                   <DialogContent className="max-w-2xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestro Acompañamiento Adaptado</h3>
+                        <h3 className="text-2xl font-bold mb-2">{t('popup.support.title')}</h3>
                       </div>
                       
                       <div>
                         <div className="space-y-6">
                           <div>
-                            <h5 className="font-medium mb-2">1. Configuración inicial del software contable según las necesidades de la empresa</h5>
+                            <h5 className="font-medium mb-2">1. {t('popup.support.software-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Capacitación, ajustes y personalización del equipo para el uso correcto de plataformas.
+                              {t('popup.support.software-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">2. Asesoría en la incorporación de nuevos sistemas o plataformas digitales</h5>
+                            <h5 className="font-medium mb-2">2. {t('popup.support.systems-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Planificación y ejecución de migración de datos y verificación del funcionamiento correcto.
+                              {t('popup.support.systems-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">3. Acompañamiento durante el uso diario de los sistemas y ayuda en la resolución de problemas.</h5>
+                            <h5 className="font-medium mb-2">3. {t('popup.support.daily-title')}</h5>
                           </div>
                         </div>
                       </div>
@@ -468,7 +468,7 @@ const Services = () => {
                 </Dialog>
               ) : (
                 <Button variant="ghost" className="w-full group">
-                  Saber Más
+                  {t('services.more')}
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               )}
