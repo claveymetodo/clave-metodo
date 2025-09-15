@@ -126,18 +126,18 @@ const translations = {
     'header.agenda': 'Schedule a Video Call',
     
     // Hero
-    'hero.title': 'Your company in Costa Rica from Zero',
+    'hero.title': 'Your company in Costa Rica from the Ground Up',
     'hero.subtitle': 'We accompany you at every stage of your business, from registration to growth strategy. We make the complex simple, so you can move forward without distractions.',
     'hero.feature1': 'Comprehensive accounting and tax management',
     'hero.feature2': 'Financial planning and regulatory compliance',
     'hero.feature3': 'Company incorporation and formalization',
-    'hero.feature4': 'Management and business expansion strategies',
+    'hero.feature4': 'Business Development and Growth Strategies',
     'hero.cta': 'Get Started Now',
     'hero.personal': 'Personalized attention',
     'hero.availability': '24/7 Availability',
     'hero.solutions': 'Complete solutions',
     'hero.legal': '100% Legal',
-    'hero.compliance': 'Guaranteed compliance',
+    'hero.compliance': 'Guaranteed Adherence',
     
     // Services
     'services.title': 'From idea to success',
