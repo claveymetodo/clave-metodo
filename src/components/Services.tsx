@@ -204,42 +204,41 @@ const Services = () => {
                   <DialogContent className="max-w-2xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestras Soluciones Contables</h3>
+                        <h3 className="text-2xl font-bold mb-2">{t('popup.accounting.title')}</h3>
                         <p className="text-muted-foreground mb-6">
-                          Mantén tus finanzas en orden y cumple con tus obligaciones tributarias sin preocupaciones.
-                          Te ofrecemos información clara y confiable para que tomes decisiones estratégicas y tu negocio siga creciendo sin contratiempos.
+                          {t('popup.accounting.desc')}
                         </p>
                       </div>
                       
                       <div>
-                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        <h4 className="text-lg font-semibold mb-4">{t('popup.advisory.portfolio')}</h4>
                         
                         <div className="space-y-4">
                           <div>
-                            <h5 className="font-medium mb-2">1. Elaboración y Presentación de Declaraciones de IVA</h5>
+                            <h5 className="font-medium mb-2">1. {t('popup.accounting.vat-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Registro y verificación de facturas emitidas y recibidas, cálculo del IVA a pagar o crédito fiscal, presentación en ATV o TRIBU-CR.
+                              {t('popup.accounting.vat-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">2. Declaración de Impuesto sobre la Renta</h5>
+                            <h5 className="font-medium mb-2">2. {t('popup.accounting.income-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Cálculo de renta líquida gravable; preparación y presentación en la plataforma tributaria correspondiente.
+                              {t('popup.accounting.income-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">3. Contabilidad Mensual Completa</h5>
+                            <h5 className="font-medium mb-2">3. {t('popup.accounting.monthly-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Registro de ingresos, gastos, activos y pasivos y conciliaciones bancarias.
+                              {t('popup.accounting.monthly-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">4. Preparación de Estados Financieros</h5>
+                            <h5 className="font-medium mb-2">4. {t('popup.accounting.statements-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Estado de resultados, balance general y flujo de efectivo, con interpretación clara de los resultados para una mejor toma de decisiones.
+                              {t('popup.accounting.statements-desc')}
                             </p>
                           </div>
                         </div>
@@ -258,50 +257,49 @@ const Services = () => {
                   <DialogContent className="max-w-2xl">
                     <div className="space-y-6">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">Nuestra Gestión de Talento Humano</h3>
+                        <h3 className="text-2xl font-bold mb-2">{t('popup.talent.title')}</h3>
                         <p className="text-muted-foreground mb-6">
-                          Mantén tu equipo organizado y gestiona tus recursos humanos sin preocupaciones.
-                          Nos encargamos del cumplimiento laboral ofreciéndote información clara y confiable para que tu negocio crezca con un equipo motivado y bien gestionado.
+                          {t('popup.talent.desc')}
                         </p>
                       </div>
                       
                       <div>
-                        <h4 className="text-lg font-semibold mb-4">Nuestro portafolio de Servicios:</h4>
+                        <h4 className="text-lg font-semibold mb-4">{t('popup.advisory.portfolio')}</h4>
                         
                         <div className="space-y-4">
                           <div>
-                            <h5 className="font-medium mb-2">1. Proceso de reclutamiento completo</h5>
+                            <h5 className="font-medium mb-2">1. {t('popup.talent.recruitment-title')}</h5>
                             <p className="text-sm text-muted-foreground">
-                              Publicación de vacantes, entrevistas, evaluación de candidatos y reportes de terna.
+                              {t('popup.talent.recruitment-desc')}
                             </p>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">2. Gestión de ofertas y contratos laborales</h5>
+                            <h5 className="font-medium mb-2">2. {t('popup.talent.contracts-title')}</h5>
                             <div className="space-y-2">
                               <p className="text-sm text-muted-foreground">
-                                Elaboración y revisión de contratos según la Legislación Costarricense.
+                                {t('popup.talent.contracts-desc1')}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                Manejos de permisos, licencias, reporte de vacaciones.
+                                {t('popup.talent.contracts-desc2')}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                Expedientes digitales y documentos legales del personal.
+                                {t('popup.talent.contracts-desc3')}
                               </p>
                             </div>
                           </div>
                           
                           <div>
-                            <h5 className="font-medium mb-2">3. Administración de planillas y plataformas de patrono</h5>
+                            <h5 className="font-medium mb-2">3. {t('popup.talent.payroll-title')}</h5>
                             <div className="space-y-2">
                               <p className="text-sm text-muted-foreground">
-                                Cálculo de salarios, deducciones y prestaciones.
+                                {t('popup.talent.payroll-desc1')}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                Declaración salarial para CCSS e INS.
+                                {t('popup.talent.payroll-desc2')}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                Desarrollo de Actuariales empresariales.
+                                {t('popup.talent.payroll-desc3')}
                               </p>
                             </div>
                           </div>
@@ -313,10 +311,10 @@ const Services = () => {
               ) : index === 3 ? (
                 <Dialog open={openDialog === 3} onOpenChange={(open) => setOpenDialog(open ? 3 : null)}>
                   <DialogTrigger asChild>
-                    <Button variant="ghost" className="w-full group">
-                      Saber Más
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
+                     <Button variant="ghost" className="w-full group">
+                       {t('services.more')}
+                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                     </Button>
                   </DialogTrigger>
                   <DialogContent className="max-w-3xl">
                     <div className="space-y-6">

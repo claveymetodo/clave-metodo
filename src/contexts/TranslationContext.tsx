@@ -163,6 +163,32 @@ const translations = {
     'services.support.system-migration': 'Migración a Sistemas especializados',
     'services.support.continuous': 'Soporte continuo',
     
+    // Popup Content - Accounting
+    'popup.accounting.title': 'Nuestras Soluciones Contables',
+    'popup.accounting.desc': 'Mantén tus finanzas en orden y cumple con tus obligaciones tributarias sin preocupaciones. Te ofrecemos información clara y confiable para que tomes decisiones estratégicas y tu negocio siga creciendo sin contratiempos.',
+    'popup.accounting.vat-title': 'Elaboración y Presentación de Declaraciones de IVA',
+    'popup.accounting.vat-desc': 'Registro y verificación de facturas emitidas y recibidas, cálculo del IVA a pagar o crédito fiscal, presentación en ATV o TRIBU-CR.',
+    'popup.accounting.income-title': 'Declaración de Impuesto sobre la Renta',
+    'popup.accounting.income-desc': 'Cálculo de renta líquida gravable; preparación y presentación en la plataforma tributaria correspondiente.',
+    'popup.accounting.monthly-title': 'Contabilidad Mensual Completa',
+    'popup.accounting.monthly-desc': 'Registro de ingresos, gastos, activos y pasivos y conciliaciones bancarias.',
+    'popup.accounting.statements-title': 'Preparación de Estados Financieros',
+    'popup.accounting.statements-desc': 'Estado de resultados, balance general y flujo de efectivo, con interpretación clara de los resultados para una mejor toma de decisiones.',
+    
+    // Popup Content - Talent Management
+    'popup.talent.title': 'Nuestra Gestión de Talento Humano',
+    'popup.talent.desc': 'Mantén tu equipo organizado y gestiona tus recursos humanos sin preocupaciones. Nos encargamos del cumplimiento laboral ofreciéndote información clara y confiable para que tu negocio crezca con un equipo motivado y bien gestionado.',
+    'popup.talent.recruitment-title': 'Proceso de reclutamiento completo',
+    'popup.talent.recruitment-desc': 'Publicación de vacantes, entrevistas, evaluación de candidatos y reportes de terna.',
+    'popup.talent.contracts-title': 'Gestión de ofertas y contratos laborales',
+    'popup.talent.contracts-desc1': 'Elaboración y revisión de contratos según la Legislación Costarricense.',
+    'popup.talent.contracts-desc2': 'Manejos de permisos, licencias, reporte de vacaciones.',
+    'popup.talent.contracts-desc3': 'Expedientes digitales y documentos legales del personal.',
+    'popup.talent.payroll-title': 'Administración de planillas y plataformas de patrono',
+    'popup.talent.payroll-desc1': 'Cálculo de salarios, deducciones y prestaciones.',
+    'popup.talent.payroll-desc2': 'Declaración salarial para CCSS e INS.',
+    'popup.talent.payroll-desc3': 'Desarrollo de Actuariales empresariales.',
+    
     // Popup Advisory
     'popup.advisory.title': 'Nuestra Asesoría Inicial',
     'popup.advisory.desc': 'Lanza tu negocio en Costa Rica de manera rápida y segura. Simplificamos todo el proceso para que tu emprendimiento pueda comenzar a crecer desde el primer día.',
@@ -327,6 +353,32 @@ const translations = {
     'services.support.digital-systems': 'Implementation of digital accounting systems',
     'services.support.system-migration': 'Migration to specialized systems',
     'services.support.continuous': 'Continuous support',
+    
+    // Popup Content - Accounting
+    'popup.accounting.title': 'Our Accounting Solutions',
+    'popup.accounting.desc': 'Keep your finances in order and comply with your tax obligations without worries. We offer you clear and reliable information so you can make strategic decisions and your business continues to grow without setbacks.',
+    'popup.accounting.vat-title': 'VAT Declaration Preparation and Submission',
+    'popup.accounting.vat-desc': 'Registration and verification of issued and received invoices, calculation of VAT to be paid or tax credit, submission in ATV or TRIBU-CR.',
+    'popup.accounting.income-title': 'Income Tax Declaration',
+    'popup.accounting.income-desc': 'Calculation of taxable net income; preparation and submission on the corresponding tax platform.',
+    'popup.accounting.monthly-title': 'Complete Monthly Accounting',
+    'popup.accounting.monthly-desc': 'Registration of income, expenses, assets and liabilities and bank reconciliations.',
+    'popup.accounting.statements-title': 'Financial Statement Preparation',
+    'popup.accounting.statements-desc': 'Income statement, balance sheet and cash flow, with clear interpretation of results for better decision making.',
+    
+    // Popup Content - Talent Management
+    'popup.talent.title': 'Our Human Talent Management',
+    'popup.talent.desc': 'Keep your team organized and manage your human resources without worries. We take care of labor compliance by offering you clear and reliable information so your business grows with a motivated and well-managed team.',
+    'popup.talent.recruitment-title': 'Complete recruitment process',
+    'popup.talent.recruitment-desc': 'Job posting, interviews, candidate evaluation and shortlist reports.',
+    'popup.talent.contracts-title': 'Management of offers and employment contracts',
+    'popup.talent.contracts-desc1': 'Preparation and review of contracts according to Costa Rican Legislation.',
+    'popup.talent.contracts-desc2': 'Management of permits, licenses, vacation reporting.',
+    'popup.talent.contracts-desc3': 'Digital files and legal documents of personnel.',
+    'popup.talent.payroll-title': 'Payroll administration and employer platforms',
+    'popup.talent.payroll-desc1': 'Calculation of salaries, deductions and benefits.',
+    'popup.talent.payroll-desc2': 'Salary declaration for CCSS and INS.',
+    'popup.talent.payroll-desc3': 'Development of business actuarial reports.',
     
     // Popup Advisory
     'popup.advisory.title': 'Our Initial Advisory',
