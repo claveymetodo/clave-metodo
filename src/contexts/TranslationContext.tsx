@@ -261,12 +261,12 @@ const translations = {
     'hero.compliance': 'Guaranteed Adherence',
     
     // Services
-    'services.title': 'From idea to success',
+    'services.title': 'From Idea to Reality',
     'services.subtitle': 'Our solutions offer you everything you need to create and grow your company in Costa Rica. We take care of the procedures and management, while you focus on making your business prosper.',
     'services.more': 'Learn More',
     
     // About
-    'about.title': 'Ready to Start Building?',
+    'about.title': 'Ready to Build Your Future?',
     'about.subtitle': 'Let\'s Talk About Your Project',
     'about.description': 'We are ready to help you create your company. Schedule a free consultation and discover how we can make your business project a reality.',
     'about.consultation': 'Free Consultation',
@@ -361,14 +361,14 @@ const translations = {
     'services.accounting.management-reports': 'Management reports',
     
     // Talent Management Service  
-    'services.talent.title': 'Talent Management',
+    'services.talent.title': 'Human Capital Solutions',
     'services.talent.desc': 'Complete personnel management, payroll and labor compliance.',
     'services.talent.recruitment': 'Personnel Recruitment and Selection',
     'services.talent.payroll': 'Payroll administration',
     'services.talent.labor-management': 'Labor Management',
     
     // Business Strategy Service
-    'services.strategy.title': 'Business Strategy',
+    'services.strategy.title': 'Growth & Strategy Roadmap',
     'services.strategy.desc': 'We develop personalized business plans and growth strategies for your company.',
     'services.strategy.business-plan': 'Business plan',
     'services.strategy.market-analysis': 'Market analysis',
@@ -376,7 +376,7 @@ const translations = {
     'services.strategy.financial-projections': 'Financial projections',
     
     // Administrative Management Service
-    'services.admin.title': 'Comprehensive Administrative Management',
+    'services.admin.title': 'All-in-One Administration',
     'services.admin.desc': 'We keep your finances organized and under control, ensuring all your invoices and accounts are up to date.',
     'services.admin.electronic-billing': 'Electronic billing',
     'services.admin.accounts': 'Accounts payable and receivable',
