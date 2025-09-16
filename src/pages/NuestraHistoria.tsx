@@ -226,7 +226,7 @@ const NuestraHistoria = () => {
           {/* Together Section */}
           <Card className="p-12 glow-card hover:shadow-glow transition-all duration-300 bg-gradient-to-r from-[#414f2f]/10 to-[#d0966e]/10 backdrop-blur-sm border-border/50">
             <div className="text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
+              <h2 className="text-2xl md:text-3xl font-bold mb-8 pb-2 bg-gradient-primary bg-clip-text text-transparent">
                 {t('historia.together.title')}
               </h2>
               
