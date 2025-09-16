@@ -478,7 +478,7 @@ const translations = {
     'popup.support.daily-title': 'Support during daily use of systems and help in problem solving.',
     
     // Portfolio Section - Why Choose Us
-    'portfolio.title': 'The Clave y Método advantage',
+    'portfolio.title': 'What Makes Clave y Método Different',
     'portfolio.subtitle': 'We are more than advisors, we are your strategic allies. We combine Costa Rican warmth with professional excellence to make your business dreams come true.',
     'portfolio.promise-title': 'Our Promise',
     'portfolio.promise-desc': 'We accompany you from idea to success. We not only create your company, we build lasting relationships based on trust, transparency and exceptional results.',
