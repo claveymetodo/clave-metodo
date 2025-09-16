@@ -35,8 +35,8 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              {t('portfolio.title')}
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+              What Makes <span className="whitespace-nowrap">Clave & Método</span> Different
             </h2>
             
             <p className="text-xl text-muted-foreground mb-8">
