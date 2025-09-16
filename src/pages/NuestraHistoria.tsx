@@ -26,7 +26,7 @@ const NuestraHistoria = () => {
               <ArrowLeft className="mr-2 h-4 w-4" />
               {t('historia.back')}
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-3xl md:text-4xl font-bold mb-12 pb-2 bg-gradient-primary bg-clip-text text-transparent">
               {t('historia.title')}
             </h1>
           </div>
