@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="space-y-8">
             {/* Logo */}
             <div className="flex justify-center lg:justify-start">
-              <img src={logo} alt="Clave & Método" className="h-20 w-auto" />
+              <img src={logo} alt="Clave & Método" className="h-32 lg:h-40 w-auto" />
             </div>
             
             <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
