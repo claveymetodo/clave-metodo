@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Heart, Shield, Lightbulb } from "lucide-react";
+import { Smile, Shield, Lightbulb, Flag } from "lucide-react";
 import { useTranslation } from "@/contexts/TranslationContext";
 
 const Portfolio = () => {
@@ -7,7 +7,7 @@ const Portfolio = () => {
   
   const values = [
     {
-      icon: Heart,
+      icon: Smile,
       title: t('portfolio.values.personal-warmth'),
       description: t('portfolio.values.personal-warmth-desc')
     },
@@ -52,7 +52,7 @@ const Portfolio = () => {
 
             <div className="flex items-start space-x-4 p-6 bg-card/50 rounded-lg border border-border/50">
               <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
-                <Heart className="h-6 w-6 text-white" />
+                <Flag className="h-6 w-6 text-white" />
               </div>
               <div>
                 <h4 className="font-semibold mb-2">{t('portfolio.commitment-title')}</h4>
