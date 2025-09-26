@@ -1,22 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Users, Clock, Zap } from "lucide-react";
 import { useTranslation } from "@/contexts/TranslationContext";
-import logo from "@/assets/logo.svg";
 
 const Hero = () => {
   const { t } = useTranslation();
   
   return (
-    <section id="hero" className="min-h-screen bg-background pt-20">
+    <section id="hero" className="min-h-screen bg-background pt-28">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-7rem)]">
           {/* Left Content */}
           <div className="space-y-8">
-            {/* Logo */}
-            <div className="flex justify-center lg:justify-start">
-              <img src={logo} alt="Clave & Método" className="h-32 lg:h-40 w-auto" />
-            </div>
-            
             <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
               {t('hero.title').split('Costa Rica').map((part, index, array) => (
                 index === array.length - 1 ? part : 
