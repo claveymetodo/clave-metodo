@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
           {/* Left Content */}
           <div className="space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
               {t('hero.title').split('Costa Rica').map((part, index, array) => (
                 index === array.length - 1 ? part : 
                 <>
