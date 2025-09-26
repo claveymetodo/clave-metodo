@@ -6,9 +6,9 @@ const Hero = () => {
   const { t } = useTranslation();
   
   return (
-    <section id="hero" className="min-h-screen bg-background pt-56">
+    <section id="hero" className="min-h-screen bg-background pt-20">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-14rem)]">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
           {/* Left Content */}
           <div className="space-y-8">
             <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
