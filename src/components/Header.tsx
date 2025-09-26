@@ -15,7 +15,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-          <img src={logo} alt="Clave & Método" className="h-12 w-auto" />
+          <img src={logo} alt="Clave & Método" className="h-16 w-auto" />
         </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
