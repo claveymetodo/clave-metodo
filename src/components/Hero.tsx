@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Users, Clock, Zap } from "lucide-react";
 import { useTranslation } from "@/contexts/TranslationContext";
+import logo from "@/assets/logo.svg";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -11,6 +12,11 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
           {/* Left Content */}
           <div className="space-y-8">
+            {/* Logo */}
+            <div className="flex justify-center lg:justify-start">
+              <img src={logo} alt="Clave & Método" className="h-20 w-auto" />
+            </div>
+            
             <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
               {t('hero.title').split('Costa Rica').map((part, index, array) => (
                 index === array.length - 1 ? part : 
