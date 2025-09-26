@@ -67,10 +67,9 @@ const Services = () => {
     title: t('services.admin.title'),
     description: t('services.admin.desc'),
     features: [
-      t('services.admin.electronic-billing'), 
-      t('services.admin.accounts'), 
-      t('services.admin.payment-tracking'), 
-      t('services.admin.audit')
+       t('services.admin.electronic-billing'), 
+       t('services.admin.accounts'), 
+       t('services.admin.payment-tracking')
     ]
   },
   {

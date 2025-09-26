@@ -151,10 +151,9 @@ const translations = {
     // Administrative Management Service
     'services.admin.title': 'Gestión Integral Administrativa',
     'services.admin.desc': 'Mantenemos tus finanzas organizadas y bajo control, asegurando que todas tus facturas y cuentas estén al día.',
-    'services.admin.electronic-billing': 'Facturación electrónica',
-    'services.admin.accounts': 'Cuentas por pagar y cobrar',
-    'services.admin.payment-tracking': 'Seguimiento a pagos',
-    'services.admin.audit': 'Auditoría',
+     'services.admin.electronic-billing': 'Facturación electrónica',
+     'services.admin.accounts': 'Cuentas por pagar y cobrar',
+     'services.admin.payment-tracking': 'Seguimiento a pagos',
     
     // Personalized Support Service
     'services.support.title': 'Acompañamiento Personalizado',
@@ -403,10 +402,9 @@ const translations = {
     // Administrative Management Service
     'services.admin.title': 'All-in-One Administration',
     'services.admin.desc': 'We keep your finances organized and under control, ensuring all your invoices and accounts are up to date.',
-    'services.admin.electronic-billing': 'Electronic billing',
-    'services.admin.accounts': 'Accounts payable and receivable',
-    'services.admin.payment-tracking': 'Payment tracking',
-    'services.admin.audit': 'Audit',
+     'services.admin.electronic-billing': 'Electronic billing',
+     'services.admin.accounts': 'Accounts payable and receivable',
+     'services.admin.payment-tracking': 'Payment tracking',
     
     // Personalized Support Service
     'services.support.title': 'Personalized Support',
